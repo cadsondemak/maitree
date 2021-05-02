@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="racute" format="1">
-  <advance width="434"/>
-  <unicode hex="0155"/>
-  <note>
-	racute
-  </note>
-  <outline>
-    <contour>
-      <point x="305" y="706" type="line"/>
-      <point x="232" y="753" type="line"/>
-      <point x="138" y="596" type="line"/>
-      <point x="193" y="560" type="line"/>
-    </contour>
-    <component base="r"/>
-  </outline>
+<glyph name="racute" format="2">
+	<advance width="434"/>
+	<unicode hex="0155"/>
+	<note>
+		racute
+	</note>
+	<outline>
+		<contour>
+			<point x="193" y="560" type="line"/>
+			<point x="305" y="706" type="line"/>
+			<point x="232" y="753" type="line"/>
+			<point x="138" y="596" type="line"/>
+		</contour>
+		<component base="r"/>
+	</outline>
 </glyph>

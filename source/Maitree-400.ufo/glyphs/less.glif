@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="less" format="1">
-  <advance width="564"/>
-  <unicode hex="003C"/>
-  <note>
-	less
-  </note>
-  <outline>
-    <contour>
-      <point x="491" y="82" type="line"/>
-      <point x="138" y="295" type="line"/>
-      <point x="491" y="508" type="line"/>
-      <point x="460" y="567" type="line"/>
-      <point x="63" y="327" type="line"/>
-      <point x="63" y="263" type="line"/>
-      <point x="460" y="23" type="line"/>
-    </contour>
-  </outline>
+<glyph name="less" format="2">
+	<advance width="564"/>
+	<unicode hex="003C"/>
+	<note>
+		less
+	</note>
+	<outline>
+		<contour>
+			<point x="460" y="23" type="line"/>
+			<point x="491" y="82" type="line"/>
+			<point x="138" y="295" type="line"/>
+			<point x="491" y="508" type="line"/>
+			<point x="460" y="567" type="line"/>
+			<point x="63" y="327" type="line"/>
+			<point x="63" y="263" type="line"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Umacron" format="1">
-  <advance width="769"/>
-  <unicode hex="016A"/>
-  <note>
-	Umacron
-  </note>
-  <outline>
-    <contour>
-      <point x="526" y="776" type="line"/>
-      <point x="526" y="818" type="line"/>
-      <point x="249" y="818" type="line"/>
-      <point x="249" y="776" type="line"/>
-    </contour>
-    <component base="U"/>
-  </outline>
+<glyph name="Umacron" format="2">
+	<advance width="769"/>
+	<unicode hex="016A"/>
+	<note>
+		Umacron
+	</note>
+	<outline>
+		<contour>
+			<point x="249" y="776" type="line"/>
+			<point x="526" y="776" type="line"/>
+			<point x="526" y="818" type="line"/>
+			<point x="249" y="818" type="line"/>
+		</contour>
+		<component base="U"/>
+	</outline>
 </glyph>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acircumflexacute" format="1">
-  <advance width="528"/>
-  <unicode hex="1EA5"/>
-  <note>
-	acircumflexacute
-  </note>
-  <outline>
-    <contour>
-      <point x="258" y="658" type="line"/>
-      <point x="349" y="559" type="line"/>
-      <point x="386" y="589" type="line"/>
-      <point x="279" y="725" type="line"/>
-      <point x="237" y="725" type="line"/>
-      <point x="130" y="589" type="line"/>
-      <point x="167" y="559" type="line"/>
-    </contour>
-    <contour>
-      <point x="469" y="758" type="line"/>
-      <point x="415" y="793" type="line"/>
-      <point x="352" y="684" type="line"/>
-      <point x="389" y="659" type="line"/>
-    </contour>
-    <component base="a"/>
-  </outline>
+<glyph name="acircumflexacute" format="2">
+	<advance width="528"/>
+	<unicode hex="1EA5"/>
+	<note>
+		acircumflexacute
+	</note>
+	<outline>
+		<contour>
+			<point x="167" y="559" type="line"/>
+			<point x="258" y="658" type="line"/>
+			<point x="349" y="559" type="line"/>
+			<point x="386" y="589" type="line"/>
+			<point x="279" y="725" type="line"/>
+			<point x="237" y="725" type="line"/>
+			<point x="130" y="589" type="line"/>
+		</contour>
+		<contour>
+			<point x="389" y="659" type="line"/>
+			<point x="469" y="758" type="line"/>
+			<point x="415" y="793" type="line"/>
+			<point x="352" y="684" type="line"/>
+		</contour>
+		<component base="a"/>
+	</outline>
 </glyph>

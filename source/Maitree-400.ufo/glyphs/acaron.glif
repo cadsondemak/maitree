@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acaron" format="1">
-  <advance width="528"/>
-  <unicode hex="01CE"/>
-  <note>
-	acaron
-  </note>
-  <outline>
-    <contour>
-      <point x="284" y="559" type="line"/>
-      <point x="391" y="695" type="line"/>
-      <point x="354" y="725" type="line"/>
-      <point x="263" y="626" type="line"/>
-      <point x="172" y="725" type="line"/>
-      <point x="135" y="695" type="line"/>
-      <point x="242" y="559" type="line"/>
-    </contour>
-    <component base="a"/>
-  </outline>
+<glyph name="acaron" format="2">
+	<advance width="528"/>
+	<unicode hex="01CE"/>
+	<note>
+		acaron
+	</note>
+	<outline>
+		<contour>
+			<point x="242" y="559" type="line"/>
+			<point x="284" y="559" type="line"/>
+			<point x="391" y="695" type="line"/>
+			<point x="354" y="725" type="line"/>
+			<point x="263" y="626" type="line"/>
+			<point x="172" y="725" type="line"/>
+			<point x="135" y="695" type="line"/>
+		</contour>
+		<component base="a"/>
+	</outline>
 </glyph>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="triagup" format="1">
-  <advance width="714"/>
-  <unicode hex="25B2"/>
-  <note>
-	triagup
-  </note>
-  <outline>
-    <contour>
-      <point x="667" y="0" type="line"/>
-      <point x="357" y="556" type="line"/>
-      <point x="47" y="0" type="line"/>
-    </contour>
-  </outline>
+<glyph name="triagup" format="2">
+	<advance width="714"/>
+	<unicode hex="25B2"/>
+	<note>
+		triagup
+	</note>
+	<outline>
+		<contour>
+			<point x="47" y="0" type="line"/>
+			<point x="667" y="0" type="line"/>
+			<point x="357" y="556" type="line"/>
+		</contour>
+	</outline>
 </glyph>

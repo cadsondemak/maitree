@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="minus" format="1">
-  <advance width="583"/>
-  <unicode hex="2212"/>
-  <note>
-	minus
-  </note>
-  <outline>
-    <contour>
-      <point x="530" y="267" type="line"/>
-      <point x="530" y="363" type="line"/>
-      <point x="53" y="363" type="line"/>
-      <point x="53" y="267" type="line"/>
-    </contour>
-  </outline>
+<glyph name="minus" format="2">
+	<advance width="583"/>
+	<unicode hex="2212"/>
+	<note>
+		minus
+	</note>
+	<outline>
+		<contour>
+			<point x="53" y="267" type="line"/>
+			<point x="530" y="267" type="line"/>
+			<point x="530" y="363" type="line"/>
+			<point x="53" y="363" type="line"/>
+		</contour>
+	</outline>
 </glyph>

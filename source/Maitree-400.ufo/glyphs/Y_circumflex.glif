@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ycircumflex" format="1">
-  <advance width="693"/>
-  <unicode hex="0176"/>
-  <note>
-	Ycircumflex
-  </note>
-  <outline>
-    <contour>
-      <point x="344" y="850" type="line"/>
-      <point x="435" y="751" type="line"/>
-      <point x="472" y="781" type="line"/>
-      <point x="365" y="917" type="line"/>
-      <point x="323" y="917" type="line"/>
-      <point x="216" y="781" type="line"/>
-      <point x="253" y="751" type="line"/>
-    </contour>
-    <component base="Y"/>
-  </outline>
+<glyph name="Ycircumflex" format="2">
+	<advance width="693"/>
+	<unicode hex="0176"/>
+	<note>
+		Ycircumflex
+	</note>
+	<outline>
+		<contour>
+			<point x="253" y="751" type="line"/>
+			<point x="344" y="850" type="line"/>
+			<point x="435" y="751" type="line"/>
+			<point x="472" y="781" type="line"/>
+			<point x="365" y="917" type="line"/>
+			<point x="323" y="917" type="line"/>
+			<point x="216" y="781" type="line"/>
+		</contour>
+		<component base="Y"/>
+	</outline>
 </glyph>

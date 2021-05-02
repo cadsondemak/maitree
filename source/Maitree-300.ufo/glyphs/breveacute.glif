@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breveacute" format="1">
-  <advance width="0"/>
-  <note>
-	breveacute
-  </note>
-  <outline>
-    <contour>
-      <point x="-237" y="538"/>
-      <point x="-182" y="569"/>
-      <point x="-159" y="651" type="curve"/>
-      <point x="-197" y="665" type="line"/>
-      <point x="-210" y="617"/>
-      <point x="-244" y="581"/>
-      <point x="-297" y="581" type="curve" smooth="yes"/>
-      <point x="-350" y="581"/>
-      <point x="-384" y="617"/>
-      <point x="-397" y="665" type="curve"/>
-      <point x="-435" y="651" type="line"/>
-      <point x="-412" y="569"/>
-      <point x="-356" y="538"/>
-      <point x="-297" y="538" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="-206" y="775" type="line"/>
-      <point x="-251" y="803" type="line"/>
-      <point x="-327" y="675" type="line"/>
-      <point x="-295" y="655" type="line"/>
-    </contour>
-  </outline>
+<glyph name="breveacute" format="2">
+	<advance width="0"/>
+	<note>
+		breveacute
+	</note>
+	<outline>
+		<contour>
+			<point x="-297" y="538" type="curve" smooth="yes"/>
+			<point x="-237" y="538"/>
+			<point x="-182" y="569"/>
+			<point x="-159" y="651" type="curve"/>
+			<point x="-197" y="665" type="line"/>
+			<point x="-210" y="617"/>
+			<point x="-244" y="581"/>
+			<point x="-297" y="581" type="curve" smooth="yes"/>
+			<point x="-350" y="581"/>
+			<point x="-384" y="617"/>
+			<point x="-397" y="665" type="curve"/>
+			<point x="-435" y="651" type="line"/>
+			<point x="-412" y="569"/>
+			<point x="-356" y="538"/>
+		</contour>
+		<contour>
+			<point x="-295" y="655" type="line"/>
+			<point x="-206" y="775" type="line"/>
+			<point x="-251" y="803" type="line"/>
+			<point x="-327" y="675" type="line"/>
+		</contour>
+	</outline>
 </glyph>

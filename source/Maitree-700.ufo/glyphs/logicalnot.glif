@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="logicalnot" format="1">
-  <advance width="645"/>
-  <unicode hex="00AC"/>
-  <note>
-	logicalnot
-  </note>
-  <outline>
-    <contour>
-      <point x="570" y="141" type="line"/>
-      <point x="570" y="396" type="line"/>
-      <point x="66" y="396" type="line"/>
-      <point x="66" y="281" type="line"/>
-      <point x="430" y="281" type="line"/>
-      <point x="430" y="141" type="line"/>
-    </contour>
-  </outline>
+<glyph name="logicalnot" format="2">
+	<advance width="645"/>
+	<unicode hex="00AC"/>
+	<note>
+		logicalnot
+	</note>
+	<outline>
+		<contour>
+			<point x="430" y="141" type="line"/>
+			<point x="570" y="141" type="line"/>
+			<point x="570" y="396" type="line"/>
+			<point x="66" y="396" type="line"/>
+			<point x="66" y="281" type="line"/>
+			<point x="430" y="281" type="line"/>
+		</contour>
+	</outline>
 </glyph>

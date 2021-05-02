@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wcircumflex" format="1">
-  <advance width="902"/>
-  <unicode hex="0175"/>
-  <note>
-	wcircumflex
-  </note>
-  <outline>
-    <contour>
-      <point x="444" y="668" type="line"/>
-      <point x="539" y="561" type="line"/>
-      <point x="591" y="606" type="line"/>
-      <point x="473" y="760" type="line"/>
-      <point x="416" y="760" type="line"/>
-      <point x="297" y="606" type="line"/>
-      <point x="349" y="561" type="line"/>
-    </contour>
-    <component base="w"/>
-  </outline>
+<glyph name="wcircumflex" format="2">
+	<advance width="902"/>
+	<unicode hex="0175"/>
+	<note>
+		wcircumflex
+	</note>
+	<outline>
+		<contour>
+			<point x="349" y="561" type="line"/>
+			<point x="444" y="668" type="line"/>
+			<point x="539" y="561" type="line"/>
+			<point x="591" y="606" type="line"/>
+			<point x="473" y="760" type="line"/>
+			<point x="416" y="760" type="line"/>
+			<point x="297" y="606" type="line"/>
+		</contour>
+		<component base="w"/>
+	</outline>
 </glyph>

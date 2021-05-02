@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ydotaccent" format="1">
-  <advance width="548"/>
-  <unicode hex="1E8F"/>
-  <note>
-	ydotaccent
-  </note>
-  <outline>
-    <contour>
-      <point x="308" y="552"/>
-      <point x="330" y="573"/>
-      <point x="330" y="601" type="curve" smooth="yes"/>
-      <point x="330" y="629"/>
-      <point x="308" y="650"/>
-      <point x="281" y="650" type="curve" smooth="yes"/>
-      <point x="254" y="650"/>
-      <point x="232" y="629"/>
-      <point x="232" y="601" type="curve" smooth="yes"/>
-      <point x="232" y="573"/>
-      <point x="254" y="552"/>
-      <point x="281" y="552" type="curve" smooth="yes"/>
-    </contour>
-    <component base="y"/>
-  </outline>
+<glyph name="ydotaccent" format="2">
+	<advance width="548"/>
+	<unicode hex="1E8F"/>
+	<note>
+		ydotaccent
+	</note>
+	<outline>
+		<contour>
+			<point x="281" y="552" type="curve" smooth="yes"/>
+			<point x="308" y="552"/>
+			<point x="330" y="573"/>
+			<point x="330" y="601" type="curve" smooth="yes"/>
+			<point x="330" y="629"/>
+			<point x="308" y="650"/>
+			<point x="281" y="650" type="curve" smooth="yes"/>
+			<point x="254" y="650"/>
+			<point x="232" y="629"/>
+			<point x="232" y="601" type="curve" smooth="yes"/>
+			<point x="232" y="573"/>
+			<point x="254" y="552"/>
+		</contour>
+		<component base="y"/>
+	</outline>
 </glyph>

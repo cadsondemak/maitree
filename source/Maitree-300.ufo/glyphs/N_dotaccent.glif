@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ndotaccent" format="1">
-  <advance width="777"/>
-  <unicode hex="1E44"/>
-  <note>
-	Ndotaccent
-  </note>
-  <outline>
-    <contour>
-      <point x="412" y="767"/>
-      <point x="431" y="785"/>
-      <point x="431" y="810" type="curve" smooth="yes"/>
-      <point x="431" y="834"/>
-      <point x="412" y="853"/>
-      <point x="388" y="853" type="curve" smooth="yes"/>
-      <point x="364" y="853"/>
-      <point x="345" y="834"/>
-      <point x="345" y="810" type="curve" smooth="yes"/>
-      <point x="345" y="785"/>
-      <point x="364" y="767"/>
-      <point x="388" y="767" type="curve" smooth="yes"/>
-    </contour>
-    <component base="N"/>
-  </outline>
+<glyph name="Ndotaccent" format="2">
+	<advance width="777"/>
+	<unicode hex="1E44"/>
+	<note>
+		Ndotaccent
+	</note>
+	<outline>
+		<contour>
+			<point x="388" y="767" type="curve" smooth="yes"/>
+			<point x="412" y="767"/>
+			<point x="431" y="785"/>
+			<point x="431" y="810" type="curve" smooth="yes"/>
+			<point x="431" y="834"/>
+			<point x="412" y="853"/>
+			<point x="388" y="853" type="curve" smooth="yes"/>
+			<point x="364" y="853"/>
+			<point x="345" y="834"/>
+			<point x="345" y="810" type="curve" smooth="yes"/>
+			<point x="345" y="785"/>
+			<point x="364" y="767"/>
+		</contour>
+		<component base="N"/>
+	</outline>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhornacute" format="1">
-  <advance width="916"/>
-  <unicode hex="1EE8"/>
-  <note>
-	Uhornacute
-  </note>
-  <outline>
-    <contour>
-      <point x="498" y="898" type="line"/>
-      <point x="425" y="945" type="line"/>
-      <point x="331" y="788" type="line"/>
-      <point x="386" y="752" type="line"/>
-    </contour>
-    <component base="Uhorn"/>
-  </outline>
+<glyph name="Uhornacute" format="2">
+	<advance width="916"/>
+	<unicode hex="1EE8"/>
+	<note>
+		Uhornacute
+	</note>
+	<outline>
+		<contour>
+			<point x="386" y="752" type="line"/>
+			<point x="498" y="898" type="line"/>
+			<point x="425" y="945" type="line"/>
+			<point x="331" y="788" type="line"/>
+		</contour>
+		<component base="Uhorn"/>
+	</outline>
 </glyph>

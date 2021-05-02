@@ -1,4 +1,5 @@
 {
+.appVersion = "1352";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
 {
@@ -23,10 +24,11 @@ value = (
 );
 }
 );
-date = "2015-07-30 08:57:40 +0000";
+date = "2021-05-02 20:17:49 +0000";
 designer = "CadsonDemak Team";
 designerURL = www.cadsondemak.com;
-familyName = "Maitree";
+disablesNiceNames = 1;
+familyName = Maitree;
 featurePrefixes = (
 {
 automatic = 1;
@@ -41,7 +43,7 @@ code = "feature ccmp;\012feature locl;\012feature sups;\012feature frac;\012feat
 name = aalt;
 },
 {
-code = "lookup thai_decomb {\012\011script thai;\012\011sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012\011script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;\012";
+code = "lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;\012";
 name = ccmp;
 },
 {
@@ -101,11 +103,11 @@ value = 200;
 },
 {
 name = winAscent;
-value = "1150";
+value = 1150;
 },
 {
 name = winDescent;
-value = "-500";
+value = -500;
 }
 );
 descender = -250;
@@ -144,7 +146,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -213,7 +214,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -242,7 +242,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -281,7 +280,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -329,7 +327,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -385,7 +382,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -433,7 +429,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -499,7 +494,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -563,7 +557,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -595,7 +588,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -627,7 +619,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -668,7 +659,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -717,7 +707,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -758,7 +747,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -817,7 +805,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -874,7 +861,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -928,7 +914,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -965,7 +950,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -994,7 +978,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1041,7 +1024,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1065,7 +1047,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1154,7 +1135,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1208,7 +1188,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1271,7 +1250,6 @@ name = A;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1311,7 +1289,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1411,7 +1388,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1520,7 +1496,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1598,7 +1573,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1664,7 +1638,6 @@ name = C;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1693,7 +1666,6 @@ name = C;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1720,7 +1692,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1801,7 +1772,6 @@ name = C;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1833,7 +1803,6 @@ name = C;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1865,7 +1834,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1922,7 +1890,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1992,7 +1959,6 @@ name = D;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2019,7 +1985,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2089,7 +2054,6 @@ name = D;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2126,7 +2090,6 @@ name = D;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2150,7 +2113,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2229,7 +2191,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2258,7 +2219,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2297,7 +2257,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2329,7 +2288,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2361,7 +2319,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2402,7 +2359,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2451,7 +2407,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2492,7 +2447,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2551,7 +2505,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2608,7 +2561,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2662,7 +2614,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2699,7 +2650,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2736,7 +2686,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2765,7 +2714,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2812,7 +2760,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2836,7 +2783,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2935,7 +2881,6 @@ name = E;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2975,7 +2920,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3047,7 +2991,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3121,7 +3064,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3160,7 +3102,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3192,7 +3133,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3224,7 +3164,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3264,7 +3203,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3301,7 +3239,6 @@ name = G;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3325,7 +3262,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3413,7 +3349,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3523,7 +3458,6 @@ name = H;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3562,7 +3496,6 @@ name = H;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3594,7 +3527,6 @@ name = H;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3626,7 +3558,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3678,7 +3609,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3769,7 +3699,6 @@ name = I;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3799,7 +3728,6 @@ transform = "{1, 0, 0, 1, -2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3833,7 +3761,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3903,7 +3830,6 @@ transform = "{1, 0, 0, 1, -5, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3936,7 +3862,6 @@ transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3991,7 +3916,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4028,7 +3952,6 @@ name = I;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4065,7 +3988,6 @@ name = I;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4095,7 +4017,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4143,7 +4064,6 @@ transform = "{1, 0, 0, 1, -18, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4167,7 +4087,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4245,7 +4164,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4285,7 +4203,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4339,7 +4256,6 @@ name = J;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4366,7 +4282,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4455,7 +4370,6 @@ name = K;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4490,7 +4404,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4549,7 +4462,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4578,7 +4490,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4618,7 +4529,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4658,7 +4568,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4695,7 +4604,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4732,7 +4640,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4778,7 +4685,6 @@ name = L;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4802,7 +4708,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4864,7 +4769,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4965,7 +4869,6 @@ name = M;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4997,7 +4900,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5073,7 +4975,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5102,7 +5003,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5134,7 +5034,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5174,7 +5073,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5211,7 +5109,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5243,7 +5140,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5326,7 +5222,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5355,7 +5250,6 @@ name = N;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5395,7 +5289,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5444,7 +5337,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5502,7 +5394,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5570,7 +5461,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5631,7 +5521,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5692,7 +5581,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5762,7 +5650,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5840,7 +5727,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5910,7 +5796,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5994,11 +5879,10 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-07-30 07:35:19 +0000";
+lastChange = "2021-05-02 20:08:25 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6037,45 +5921,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"431 747 OFFCURVE",
-"490 780 OFFCURVE",
-"514 867 CURVE",
-"468 883 LINE",
-"454 835 OFFCURVE",
-"419 801 OFFCURVE",
-"368 801 CURVE SMOOTH",
-"317 801 OFFCURVE",
-"282 835 OFFCURVE",
-"268 883 CURVE",
-"222 867 LINE",
-"246 780 OFFCURVE",
-"305 747 OFFCURVE",
-"368 747 CURVE SMOOTH"
+"369 850 LINE",
+"460 751 LINE",
+"497 781 LINE",
+"390 917 LINE",
+"348 917 LINE",
+"241 781 LINE",
+"278 751 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"437 922 OFFCURVE",
-"463 937 OFFCURVE",
-"484 957 CURVE",
-"462 993 LINE",
-"446 981 OFFCURVE",
-"430 972 OFFCURVE",
-"412 972 CURVE SMOOTH",
-"385 972 OFFCURVE",
-"355 1000 OFFCURVE",
-"325 1000 CURVE SMOOTH",
-"302 1000 OFFCURVE",
-"274 984 OFFCURVE",
-"253 965 CURVE",
-"275 929 LINE",
-"290 941 OFFCURVE",
-"305 950 OFFCURVE",
-"325 950 CURVE SMOOTH",
-"356 950 OFFCURVE",
-"380 922 OFFCURVE",
-"413 922 CURVE SMOOTH"
+"439 947 OFFCURVE",
+"465 962 OFFCURVE",
+"486 982 CURVE",
+"464 1017 LINE",
+"448 1005 OFFCURVE",
+"432 997 OFFCURVE",
+"414 997 CURVE SMOOTH",
+"387 997 OFFCURVE",
+"357 1024 OFFCURVE",
+"327 1024 CURVE SMOOTH",
+"304 1024 OFFCURVE",
+"276 1008 OFFCURVE",
+"255 990 CURVE",
+"277 954 LINE",
+"292 965 OFFCURVE",
+"307 975 OFFCURVE",
+"327 975 CURVE SMOOTH",
+"358 975 OFFCURVE",
+"382 947 OFFCURVE",
+"415 947 CURVE SMOOTH"
 );
 }
 );
@@ -6091,7 +5968,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6174,7 +6050,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6240,7 +6115,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6298,7 +6172,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6374,7 +6247,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6433,7 +6305,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6501,7 +6372,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6577,7 +6447,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6645,7 +6514,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6731,7 +6599,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6815,7 +6682,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6882,7 +6748,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6940,7 +6805,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7014,7 +6878,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7097,7 +6960,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7171,7 +7033,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7260,7 +7121,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7326,7 +7186,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7409,7 +7268,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7476,7 +7334,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7557,7 +7414,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7586,7 +7442,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7618,7 +7473,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7658,7 +7512,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7695,7 +7548,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7741,7 +7593,6 @@ name = R;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7765,7 +7616,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7837,7 +7687,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7923,7 +7772,6 @@ name = S;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7950,7 +7798,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8042,7 +7889,6 @@ name = S;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8074,7 +7920,6 @@ name = S;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8114,7 +7959,6 @@ name = S;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8151,7 +7995,6 @@ name = S;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8183,7 +8026,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8256,7 +8098,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8322,7 +8163,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8378,7 +8218,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8447,7 +8286,6 @@ name = T;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8474,7 +8312,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8551,7 +8388,6 @@ name = T;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8591,7 +8427,6 @@ name = T;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8628,7 +8463,6 @@ name = T;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8652,7 +8486,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8723,7 +8556,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8752,7 +8584,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8791,7 +8622,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8823,7 +8653,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8855,7 +8684,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8909,7 +8737,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8972,7 +8799,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9038,7 +8864,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9101,7 +8926,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9164,7 +8988,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9201,7 +9024,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9230,7 +9052,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9272,7 +9093,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9346,7 +9166,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9429,7 +9248,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9520,7 +9338,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9603,7 +9420,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9704,7 +9520,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9808,7 +9623,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9846,7 +9660,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9870,7 +9683,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9960,7 +9772,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10014,7 +9825,6 @@ name = U;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10054,7 +9864,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10116,7 +9925,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10203,7 +10011,6 @@ name = W;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10232,7 +10039,6 @@ name = W;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10264,7 +10070,6 @@ name = W;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10318,7 +10123,6 @@ name = W;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10342,7 +10146,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10430,7 +10233,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10506,7 +10308,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10535,7 +10336,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10567,7 +10367,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10621,7 +10420,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10658,7 +10456,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10695,7 +10492,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10724,7 +10520,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10771,7 +10566,6 @@ name = Y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10811,7 +10605,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10860,7 +10653,6 @@ name = Z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10889,7 +10681,6 @@ name = Z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10921,7 +10712,6 @@ name = Z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10958,7 +10748,6 @@ name = Z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10990,7 +10779,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11073,7 +10861,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11102,7 +10889,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11141,7 +10927,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11189,7 +10974,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11245,7 +11029,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11293,7 +11076,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11359,7 +11141,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11423,7 +11204,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11455,7 +11235,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11487,7 +11266,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11528,7 +11306,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11578,7 +11355,6 @@ transform = "{1, 0, 0, 1, 14, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11619,7 +11395,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11678,7 +11453,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11735,7 +11509,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11789,7 +11562,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11826,7 +11598,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11855,7 +11626,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11902,7 +11672,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11926,7 +11695,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12029,7 +11797,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12083,7 +11850,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12141,7 +11907,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12211,7 +11976,6 @@ name = a;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12251,7 +12015,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12368,7 +12131,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12493,7 +12255,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12554,7 +12315,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12620,7 +12380,6 @@ name = c;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12649,7 +12408,6 @@ name = c;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12676,7 +12434,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12757,7 +12514,6 @@ name = c;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12789,7 +12545,6 @@ name = c;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12821,7 +12576,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12891,7 +12645,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12965,7 +12718,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13055,7 +12807,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13138,7 +12889,6 @@ name = d;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13175,7 +12925,6 @@ name = d;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13199,7 +12948,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13270,7 +13018,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13299,7 +13046,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13338,7 +13084,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13370,7 +13115,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13402,7 +13146,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13443,7 +13186,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13493,7 +13235,6 @@ transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13534,7 +13275,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13593,7 +13333,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13650,7 +13389,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13704,7 +13442,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13741,7 +13478,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13778,7 +13514,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13807,7 +13542,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13854,7 +13588,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13878,7 +13611,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13968,7 +13700,6 @@ name = e;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14008,7 +13739,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14083,7 +13813,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14162,7 +13891,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14201,7 +13929,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14233,7 +13960,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14265,7 +13991,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14305,7 +14030,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14342,7 +14066,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14366,7 +14089,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14442,7 +14164,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14531,7 +14252,6 @@ name = h;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14570,7 +14290,6 @@ name = h;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14602,7 +14321,6 @@ name = h;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14634,7 +14352,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14696,7 +14413,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14747,7 +14463,6 @@ transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14777,7 +14492,6 @@ transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14811,7 +14525,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14874,7 +14587,6 @@ transform = "{1, 0, 0, 1, -8, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14907,7 +14619,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14962,7 +14673,6 @@ transform = "{1, 0, 0, 1, -11, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15011,7 +14721,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15071,7 +14780,6 @@ transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15113,7 +14821,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15225,7 +14932,6 @@ transform = "{1, 0, 0, 1, -12, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15249,7 +14955,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15337,7 +15042,6 @@ transform = "{1, 0, 0, 1, 3, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15377,7 +15081,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15436,7 +15139,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15478,7 +15180,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15532,7 +15233,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15614,7 +15314,6 @@ name = k;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15649,7 +15348,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15726,7 +15424,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15777,7 +15474,6 @@ transform = "{1, 0, 0, 1, -9, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15806,7 +15502,6 @@ name = l;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15847,7 +15542,6 @@ transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15887,7 +15581,6 @@ name = l;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15924,7 +15617,6 @@ name = l;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15962,7 +15654,6 @@ transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16009,7 +15700,6 @@ transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16033,7 +15723,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16086,7 +15775,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16196,7 +15884,6 @@ name = m;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16228,7 +15915,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16309,7 +15995,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16339,7 +16024,6 @@ transform = "{1, 0, 0, 1, 136, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16379,7 +16063,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16411,7 +16094,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16451,7 +16133,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16488,7 +16169,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16520,7 +16200,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16593,7 +16272,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16622,7 +16300,6 @@ name = n;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16662,7 +16339,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16711,7 +16387,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16769,7 +16444,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16837,7 +16511,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16898,7 +16571,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16959,7 +16631,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17029,7 +16700,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17107,7 +16777,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17177,7 +16846,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17261,11 +16929,10 @@ unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
-lastChange = "2015-07-30 07:35:19 +0000";
+lastChange = "2021-05-02 20:08:35 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17304,45 +16971,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"334 550 OFFCURVE",
-"393 583 OFFCURVE",
-"417 670 CURVE",
-"371 686 LINE",
-"357 638 OFFCURVE",
-"322 604 OFFCURVE",
-"271 604 CURVE SMOOTH",
-"220 604 OFFCURVE",
-"185 638 OFFCURVE",
-"171 686 CURVE",
-"125 670 LINE",
-"149 583 OFFCURVE",
-"208 550 OFFCURVE",
-"271 550 CURVE SMOOTH"
+"273 658 LINE",
+"364 559 LINE",
+"401 589 LINE",
+"294 725 LINE",
+"252 725 LINE",
+"145 589 LINE",
+"182 559 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"340 725 OFFCURVE",
-"366 740 OFFCURVE",
-"387 760 CURVE",
-"365 796 LINE",
-"349 784 OFFCURVE",
-"333 775 OFFCURVE",
-"315 775 CURVE SMOOTH",
-"288 775 OFFCURVE",
-"258 803 OFFCURVE",
-"228 803 CURVE SMOOTH",
-"205 803 OFFCURVE",
-"177 787 OFFCURVE",
-"156 768 CURVE",
-"178 732 LINE",
-"193 744 OFFCURVE",
-"208 753 OFFCURVE",
-"228 753 CURVE SMOOTH",
-"259 753 OFFCURVE",
-"283 725 OFFCURVE",
-"316 725 CURVE SMOOTH"
+"343 755 OFFCURVE",
+"369 770 OFFCURVE",
+"390 790 CURVE",
+"368 825 LINE",
+"352 813 OFFCURVE",
+"336 805 OFFCURVE",
+"318 805 CURVE SMOOTH",
+"291 805 OFFCURVE",
+"261 832 OFFCURVE",
+"231 832 CURVE SMOOTH",
+"208 832 OFFCURVE",
+"180 816 OFFCURVE",
+"159 798 CURVE",
+"181 762 LINE",
+"196 773 OFFCURVE",
+"211 783 OFFCURVE",
+"231 783 CURVE SMOOTH",
+"262 783 OFFCURVE",
+"286 755 OFFCURVE",
+"319 755 CURVE SMOOTH"
 );
 }
 );
@@ -17358,7 +17018,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17441,7 +17100,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17507,7 +17165,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17565,7 +17222,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17641,7 +17297,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17700,7 +17355,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17768,7 +17422,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17844,7 +17497,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17912,7 +17564,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17998,7 +17649,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18082,7 +17732,6 @@ lastChange = "2015-07-30 12:35:25 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18149,7 +17798,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18207,7 +17855,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18281,7 +17928,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18364,7 +18010,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18438,7 +18083,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18533,7 +18177,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18610,7 +18253,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18687,7 +18329,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18759,7 +18400,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18823,7 +18463,6 @@ name = r;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18852,7 +18491,6 @@ name = r;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18884,7 +18522,6 @@ name = r;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18919,7 +18556,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19001,7 +18637,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19048,7 +18683,6 @@ transform = "{1, 0, 0, 1, 15, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19072,7 +18706,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19144,7 +18777,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19225,7 +18857,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19309,7 +18940,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19396,7 +19026,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19480,7 +19109,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19572,7 +19200,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19661,7 +19288,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19750,7 +19376,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19824,7 +19449,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19890,7 +19514,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19952,7 +19575,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20027,7 +19649,6 @@ name = t;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20062,7 +19683,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20144,7 +19764,6 @@ name = t;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20185,7 +19804,6 @@ transform = "{1, 0, 0, 1, 2, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20239,7 +19857,6 @@ name = t;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20277,7 +19894,6 @@ transform = "{1, 0, 0, 1, -3, 0}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20301,7 +19917,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20363,7 +19978,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20439,7 +20053,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20473,7 +20086,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20552,7 +20164,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20584,7 +20195,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20638,7 +20248,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20701,7 +20310,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20767,7 +20375,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20830,7 +20437,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20893,7 +20499,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20925,7 +20530,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21001,7 +20605,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21043,7 +20646,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21113,7 +20715,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21192,7 +20793,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21279,7 +20879,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21358,7 +20957,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21455,7 +21053,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21555,7 +21152,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21593,7 +21189,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21617,7 +21212,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21704,7 +21298,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21758,7 +21351,6 @@ name = u;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21798,7 +21390,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21860,7 +21451,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21947,7 +21537,6 @@ name = w;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21976,7 +21565,6 @@ name = w;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22008,7 +21596,6 @@ name = w;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22062,7 +21649,6 @@ name = w;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22086,7 +21672,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22160,7 +21745,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22239,7 +21823,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22268,7 +21851,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22300,7 +21882,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22354,7 +21935,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22391,7 +21971,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22428,7 +22007,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22457,7 +22035,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22504,7 +22081,6 @@ name = y;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22544,7 +22120,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22593,7 +22168,6 @@ name = z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22622,7 +22196,6 @@ name = z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22654,7 +22227,6 @@ name = z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22691,7 +22263,6 @@ name = z;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22723,7 +22294,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22809,7 +22379,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22895,7 +22464,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22973,7 +22541,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23022,7 +22589,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23098,7 +22664,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23164,7 +22729,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23208,7 +22772,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23280,7 +22843,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23378,7 +22940,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23476,7 +23037,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23574,7 +23134,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23671,7 +23230,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23769,7 +23327,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23866,7 +23423,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24009,7 +23565,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24151,7 +23706,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24300,7 +23854,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24448,7 +24001,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24568,7 +24120,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24688,7 +24239,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24856,7 +24406,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24970,7 +24519,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25047,7 +24595,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25130,7 +24677,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25225,7 +24771,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25326,7 +24871,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25409,7 +24953,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25517,7 +25060,6 @@ position = "{554, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25618,7 +25160,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25705,7 +25246,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25806,7 +25346,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25897,7 +25436,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26007,7 +25545,6 @@ position = "{564, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26118,7 +25655,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26230,7 +25766,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26390,7 +25925,6 @@ position = "{850, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26539,7 +26073,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26692,7 +26225,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26813,7 +26345,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26889,7 +26420,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26974,7 +26504,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27064,7 +26593,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27139,7 +26667,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27226,7 +26753,6 @@ position = "{514, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27441,7 +26967,6 @@ position = "{514, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27558,7 +27083,6 @@ position = "{553, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27684,7 +27208,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27783,7 +27306,6 @@ position = "{510, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27890,7 +27412,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27977,7 +27498,6 @@ position = "{440, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28054,7 +27574,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28170,7 +27689,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28263,7 +27781,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28356,7 +27873,6 @@ position = "{435, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28449,7 +27965,6 @@ position = "{510, 280}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28549,7 +28064,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28649,7 +28163,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28769,7 +28282,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28881,7 +28393,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28992,7 +28503,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29079,7 +28589,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29184,7 +28693,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29233,7 +28741,6 @@ lastChange = "2015-07-30 15:16:26 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29316,7 +28823,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29365,7 +28871,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29486,7 +28991,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29546,7 +29050,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29651,7 +29154,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29731,7 +29233,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29833,7 +29334,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29923,7 +29423,6 @@ name = g;
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 551;
 }
 );
@@ -29936,7 +29435,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29985,7 +29483,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30031,7 +29528,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30084,7 +29580,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30154,7 +29649,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30193,7 +29687,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30244,7 +29737,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30306,7 +29798,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30340,7 +29831,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30418,7 +29908,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30480,7 +29969,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30504,7 +29992,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30591,7 +30078,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30696,7 +30182,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30812,7 +30297,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30886,7 +30370,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30989,7 +30472,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31102,7 +30584,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31244,7 +30725,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31367,7 +30847,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31473,7 +30952,6 @@ lastChange = "2015-11-23 08:40:09 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31522,7 +31000,6 @@ lastChange = "2015-11-23 08:40:14 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31563,7 +31040,6 @@ lastChange = "2015-11-23 08:40:36 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31615,7 +31091,6 @@ lastChange = "2015-11-23 08:40:40 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31685,7 +31160,6 @@ lastChange = "2015-11-23 08:40:45 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31724,7 +31198,6 @@ lastChange = "2015-11-23 08:40:48 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31775,7 +31248,6 @@ lastChange = "2015-11-23 08:40:52 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31837,7 +31309,6 @@ lastChange = "2015-11-23 08:40:56 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31871,7 +31342,6 @@ lastChange = "2015-11-23 08:40:59 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31949,7 +31419,6 @@ lastChange = "2015-11-23 08:41:06 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32011,7 +31480,6 @@ lastChange = "2015-11-23 08:41:09 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32060,7 +31528,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32101,7 +31568,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32153,7 +31619,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32223,7 +31688,6 @@ lastChange = "2015-11-23 08:41:12 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32262,7 +31726,6 @@ lastChange = "2015-11-23 08:41:15 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32313,7 +31776,6 @@ lastChange = "2015-11-23 08:41:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32375,7 +31837,6 @@ lastChange = "2015-11-23 08:41:23 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32409,7 +31870,6 @@ lastChange = "2015-11-23 08:41:27 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32487,7 +31947,6 @@ lastChange = "2015-11-23 08:41:30 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32549,7 +32008,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32598,7 +32056,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32680,7 +32137,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32790,7 +32246,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32882,7 +32337,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32978,7 +32432,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33103,7 +32556,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33188,7 +32640,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33297,7 +32748,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33396,7 +32846,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33498,7 +32947,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33536,7 +32984,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33560,7 +33007,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33592,7 +33038,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33624,7 +33069,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33673,7 +33117,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33708,7 +33151,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33774,7 +33216,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33815,7 +33256,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33856,7 +33296,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33913,7 +33352,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33945,7 +33383,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34017,7 +33454,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34089,7 +33525,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34122,7 +33557,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34146,7 +33580,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34198,7 +33631,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34222,7 +33654,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34246,7 +33677,6 @@ lastChange = "2015-11-23 08:46:24 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34280,7 +33710,6 @@ lastChange = "2015-11-23 08:46:40 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34314,7 +33743,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34369,7 +33797,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34424,7 +33851,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34452,7 +33878,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34480,7 +33905,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34514,7 +33938,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34548,7 +33971,6 @@ lastChange = "2015-11-23 08:45:58 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34582,7 +34004,6 @@ lastChange = "2015-11-23 08:46:21 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34616,7 +34037,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34640,7 +34060,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34664,7 +34083,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34688,7 +34106,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34712,7 +34129,6 @@ lastChange = "2015-07-31 07:53:35 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34736,7 +34152,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34760,7 +34175,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34784,7 +34198,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34823,7 +34236,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34862,7 +34274,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34889,7 +34300,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34916,7 +34326,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34971,7 +34380,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35026,7 +34434,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35081,7 +34488,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35116,7 +34522,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35151,7 +34556,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35186,7 +34590,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35273,7 +34676,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35356,7 +34758,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35462,7 +34863,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35552,7 +34952,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35630,7 +35029,6 @@ lastChange = "2015-07-16 11:16:01 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 288;
 }
 );
@@ -35643,7 +35041,6 @@ lastChange = "2015-07-16 11:16:01 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 288;
 }
 );
@@ -35656,7 +35053,6 @@ lastChange = "2015-07-16 11:16:02 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 0;
 }
 );
@@ -35669,7 +35065,6 @@ lastChange = "2015-07-16 11:16:01 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 288;
 }
 );
@@ -35682,7 +35077,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35714,7 +35108,6 @@ lastChange = "2015-07-16 11:16:01 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 width = 500;
 }
 );
@@ -35727,7 +35120,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35803,7 +35195,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35889,7 +35280,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35956,7 +35346,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36062,7 +35451,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36135,7 +35523,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36213,7 +35600,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36300,7 +35686,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36373,7 +35758,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36486,7 +35870,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36567,7 +35950,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36658,7 +36040,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36781,7 +36162,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36889,7 +36269,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36980,7 +36359,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37066,7 +36444,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37114,7 +36491,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37180,7 +36556,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37258,7 +36633,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37345,7 +36719,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37379,7 +36752,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37445,7 +36817,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37522,7 +36893,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37568,7 +36938,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37626,7 +36995,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37659,7 +37027,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37686,7 +37053,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37722,7 +37088,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37800,7 +37165,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37848,7 +37212,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37875,7 +37238,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37911,7 +37273,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37937,7 +37298,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37961,7 +37321,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38017,7 +37376,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38049,7 +37407,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38089,7 +37446,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38151,7 +37507,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38243,7 +37598,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38369,7 +37723,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38401,7 +37754,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38442,7 +37794,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38512,7 +37863,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38541,7 +37891,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38587,7 +37936,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38611,7 +37959,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38643,7 +37990,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38673,7 +38019,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38703,7 +38048,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38733,7 +38077,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38763,7 +38106,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38787,7 +38129,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38822,7 +38163,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38846,7 +38186,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38869,7 +38208,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38892,7 +38230,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38915,7 +38252,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38938,7 +38274,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38969,7 +38304,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39000,7 +38334,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39031,7 +38364,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39062,7 +38394,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39086,7 +38417,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39119,7 +38449,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39207,7 +38536,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39312,7 +38640,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39368,7 +38695,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39463,7 +38789,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39573,7 +38898,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39673,7 +38997,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39780,7 +39103,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39898,7 +39220,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39947,7 +39268,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40021,7 +39341,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40084,7 +39403,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40111,7 +39429,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40143,7 +39460,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40183,7 +39499,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40207,7 +39522,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40240,7 +39554,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40374,7 +39687,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40407,7 +39719,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40456,7 +39767,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40488,7 +39798,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40512,7 +39821,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40536,7 +39844,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40569,7 +39876,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40596,7 +39902,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40623,7 +39928,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40657,7 +39961,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40706,7 +40009,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40746,7 +40048,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40770,7 +40071,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40812,7 +40112,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40842,7 +40141,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40874,7 +40172,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40923,7 +40220,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40958,7 +40254,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40982,7 +40277,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41018,7 +40312,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41058,7 +40351,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41092,7 +40384,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41116,7 +40407,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41151,7 +40441,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41186,7 +40475,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41220,7 +40508,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41254,7 +40541,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41278,7 +40564,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41302,7 +40587,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41326,7 +40610,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41350,7 +40633,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41374,7 +40656,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41398,7 +40679,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41432,7 +40712,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41459,7 +40738,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41495,7 +40773,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41522,7 +40799,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41571,7 +40847,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41603,7 +40878,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41627,7 +40901,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41660,7 +40933,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41684,7 +40956,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41724,7 +40995,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41773,7 +41043,6 @@ lastChange = "2015-07-30 07:35:18 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41823,7 +41092,6 @@ position = "{-83, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41901,7 +41169,6 @@ position = "{-309, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41978,7 +41245,6 @@ position = "{-93, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42022,7 +41288,6 @@ position = "{-83, 713}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42065,7 +41330,6 @@ position = "{-93, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42150,7 +41414,6 @@ position = "{-83, 713}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42234,7 +41497,6 @@ position = "{-273, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42318,7 +41580,6 @@ position = "{-93, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42424,7 +41685,6 @@ position = "{-83, 713}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42529,7 +41789,6 @@ position = "{-273, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42634,7 +41893,6 @@ position = "{-133, 539}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42696,7 +41954,6 @@ position = "{-83, 713}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42747,7 +42004,6 @@ lastChange = "2015-07-30 15:17:32 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42818,7 +42074,6 @@ position = "{-83, 713}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42888,7 +42143,6 @@ position = "{-283, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42958,7 +42212,6 @@ position = "{-121, 558}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43047,7 +42300,6 @@ position = "{-230, 558}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43135,7 +42387,6 @@ position = "{-83, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43213,7 +42464,6 @@ position = "{-81, 492}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43270,7 +42520,6 @@ position = "{-214, 492}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43326,7 +42575,6 @@ position = "{-81, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43443,7 +42691,6 @@ nodes = (
 );
 };
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43511,7 +42758,6 @@ position = "{-80, 522}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43598,7 +42844,6 @@ position = "{-214, 522}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43684,7 +42929,6 @@ position = "{-83, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43763,7 +43007,6 @@ position = "{-214, 512}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43841,7 +43084,6 @@ position = "{-102, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43900,7 +43142,6 @@ position = "{-102, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43976,7 +43217,6 @@ position = "{-102, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44093,7 +43333,6 @@ position = "{-102, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44231,7 +43470,6 @@ position = "{-102, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44325,7 +43563,6 @@ position = "{-83, -186}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44367,7 +43604,6 @@ position = "{-82, -416}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44408,7 +43644,6 @@ position = "{-83, -243}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44479,7 +43714,6 @@ position = "{-82, -440}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44549,7 +43783,6 @@ position = "{-83, -243}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44630,7 +43863,6 @@ position = "{-82, -440}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44710,7 +43942,6 @@ position = "{-273, 526}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44753,7 +43984,6 @@ position = "{-304, 545}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44814,7 +44044,6 @@ position = "{-309, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44872,7 +44101,6 @@ position = "{-309, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44948,7 +44176,6 @@ position = "{-309, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45065,7 +44292,6 @@ position = "{-309, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45203,7 +44429,6 @@ position = "{-309, 506}";
 }
 );
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45287,7 +44512,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45322,7 +44546,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45357,7 +44580,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45410,7 +44632,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45461,7 +44682,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45503,7 +44723,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45545,7 +44764,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45605,7 +44823,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45663,7 +44880,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45720,7 +44936,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45777,7 +44992,6 @@ lastChange = "2015-07-30 07:35:19 +0000";
 layers = (
 {
 layerId = "9EA4E357-4DFB-45A6-8407-D27A22F681E3";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45832,10 +45046,12 @@ width = 0;
 note = dieresiscaron;
 }
 );
-disablesNiceNames = 1;
 instances = (
 {
 interpolationWeight = 80;
+instanceInterpolations = {
+"9EA4E357-4DFB-45A6-8407-D27A22F681E3" = 1;
+};
 name = Regular;
 }
 );
@@ -46534,5 +45750,5 @@ manufacturer = CadsonDemak;
 manufacturerURL = www.cadsondemak.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 10;
 }

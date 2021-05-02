@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="second" format="1">
-  <advance width="410"/>
-  <unicode hex="2033"/>
-  <note>
-	second
-  </note>
-  <outline>
-    <contour>
-      <point x="299" y="403" type="line"/>
-      <point x="336" y="702" type="line"/>
-      <point x="250" y="708" type="line"/>
-      <point x="236" y="403" type="line"/>
-    </contour>
-    <contour>
-      <point x="138" y="403" type="line"/>
-      <point x="175" y="702" type="line"/>
-      <point x="89" y="708" type="line"/>
-      <point x="75" y="403" type="line"/>
-    </contour>
-  </outline>
+<glyph name="second" format="2">
+	<advance width="410"/>
+	<unicode hex="2033"/>
+	<note>
+		second
+	</note>
+	<outline>
+		<contour>
+			<point x="236" y="403" type="line"/>
+			<point x="299" y="403" type="line"/>
+			<point x="336" y="702" type="line"/>
+			<point x="250" y="708" type="line"/>
+		</contour>
+		<contour>
+			<point x="75" y="403" type="line"/>
+			<point x="138" y="403" type="line"/>
+			<point x="175" y="702" type="line"/>
+			<point x="89" y="708" type="line"/>
+		</contour>
+	</outline>
 </glyph>

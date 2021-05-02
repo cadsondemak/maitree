@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Udieresismacron" format="1">
-  <advance width="793"/>
-  <unicode hex="01D5"/>
-  <note>
-	Udieresismacron
-  </note>
-  <outline>
-    <contour>
-      <point x="335" y="763"/>
-      <point x="361" y="786"/>
-      <point x="361" y="818" type="curve" smooth="yes"/>
-      <point x="361" y="850"/>
-      <point x="335" y="873"/>
-      <point x="306" y="873" type="curve" smooth="yes"/>
-      <point x="276" y="873"/>
-      <point x="251" y="850"/>
-      <point x="251" y="818" type="curve" smooth="yes"/>
-      <point x="251" y="786"/>
-      <point x="276" y="763"/>
-      <point x="306" y="763" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="532" y="763"/>
-      <point x="558" y="786"/>
-      <point x="558" y="818" type="curve" smooth="yes"/>
-      <point x="558" y="850"/>
-      <point x="532" y="873"/>
-      <point x="503" y="873" type="curve" smooth="yes"/>
-      <point x="473" y="873"/>
-      <point x="448" y="850"/>
-      <point x="448" y="818" type="curve" smooth="yes"/>
-      <point x="448" y="786"/>
-      <point x="473" y="763"/>
-      <point x="503" y="763" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="549" y="929" type="line"/>
-      <point x="549" y="994" type="line"/>
-      <point x="262" y="994" type="line"/>
-      <point x="262" y="929" type="line"/>
-    </contour>
-    <component base="U"/>
-  </outline>
+<glyph name="Udieresismacron" format="2">
+	<advance width="793"/>
+	<unicode hex="01D5"/>
+	<note>
+		Udieresismacron
+	</note>
+	<outline>
+		<contour>
+			<point x="306" y="763" type="curve" smooth="yes"/>
+			<point x="335" y="763"/>
+			<point x="361" y="786"/>
+			<point x="361" y="818" type="curve" smooth="yes"/>
+			<point x="361" y="850"/>
+			<point x="335" y="873"/>
+			<point x="306" y="873" type="curve" smooth="yes"/>
+			<point x="276" y="873"/>
+			<point x="251" y="850"/>
+			<point x="251" y="818" type="curve" smooth="yes"/>
+			<point x="251" y="786"/>
+			<point x="276" y="763"/>
+		</contour>
+		<contour>
+			<point x="503" y="763" type="curve" smooth="yes"/>
+			<point x="532" y="763"/>
+			<point x="558" y="786"/>
+			<point x="558" y="818" type="curve" smooth="yes"/>
+			<point x="558" y="850"/>
+			<point x="532" y="873"/>
+			<point x="503" y="873" type="curve" smooth="yes"/>
+			<point x="473" y="873"/>
+			<point x="448" y="850"/>
+			<point x="448" y="818" type="curve" smooth="yes"/>
+			<point x="448" y="786"/>
+			<point x="473" y="763"/>
+		</contour>
+		<contour>
+			<point x="262" y="929" type="line"/>
+			<point x="549" y="929" type="line"/>
+			<point x="549" y="994" type="line"/>
+			<point x="262" y="994" type="line"/>
+		</contour>
+		<component base="U"/>
+	</outline>
 </glyph>

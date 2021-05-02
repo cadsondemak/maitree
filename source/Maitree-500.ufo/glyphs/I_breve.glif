@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ibreve" format="1">
-  <advance width="346"/>
-  <unicode hex="012C"/>
-  <note>
-	Ibreve
-  </note>
-  <outline>
-    <contour>
-      <point x="240" y="747"/>
-      <point x="302" y="782"/>
-      <point x="328" y="874" type="curve"/>
-      <point x="273" y="893" type="line"/>
-      <point x="258" y="844"/>
-      <point x="223" y="813"/>
-      <point x="173" y="813" type="curve" smooth="yes"/>
-      <point x="124" y="813"/>
-      <point x="89" y="844"/>
-      <point x="73" y="893" type="curve"/>
-      <point x="19" y="874" type="line"/>
-      <point x="45" y="782"/>
-      <point x="107" y="747"/>
-      <point x="173" y="747" type="curve" smooth="yes"/>
-    </contour>
-    <component base="I" xOffset="-4"/>
-  </outline>
+<glyph name="Ibreve" format="2">
+	<advance width="346"/>
+	<unicode hex="012C"/>
+	<note>
+		Ibreve
+	</note>
+	<outline>
+		<contour>
+			<point x="173" y="747" type="curve" smooth="yes"/>
+			<point x="240" y="747"/>
+			<point x="302" y="782"/>
+			<point x="328" y="874" type="curve"/>
+			<point x="273" y="893" type="line"/>
+			<point x="258" y="844"/>
+			<point x="223" y="813"/>
+			<point x="173" y="813" type="curve" smooth="yes"/>
+			<point x="124" y="813"/>
+			<point x="89" y="844"/>
+			<point x="73" y="893" type="curve"/>
+			<point x="19" y="874" type="line"/>
+			<point x="45" y="782"/>
+			<point x="107" y="747"/>
+		</contour>
+		<component base="I" xOffset="-4"/>
+	</outline>
 </glyph>

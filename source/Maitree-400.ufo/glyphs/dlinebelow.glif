@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dlinebelow" format="1">
-  <advance width="586"/>
-  <unicode hex="1E0F"/>
-  <note>
-	dlinebelow
-  </note>
-  <outline>
-    <contour>
-      <point x="486" y="-141" type="line"/>
-      <point x="486" y="-88" type="line"/>
-      <point x="108" y="-88" type="line"/>
-      <point x="108" y="-141" type="line"/>
-    </contour>
-    <component base="d"/>
-  </outline>
+<glyph name="dlinebelow" format="2">
+	<advance width="586"/>
+	<unicode hex="1E0F"/>
+	<note>
+		dlinebelow
+	</note>
+	<outline>
+		<contour>
+			<point x="108" y="-141" type="line"/>
+			<point x="486" y="-141" type="line"/>
+			<point x="486" y="-88" type="line"/>
+			<point x="108" y="-88" type="line"/>
+		</contour>
+		<component base="d"/>
+	</outline>
 </glyph>

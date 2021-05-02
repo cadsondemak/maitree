@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nlinebelow" format="1">
-  <advance width="611"/>
-  <unicode hex="1E49"/>
-  <note>
-	nlinebelow
-  </note>
-  <outline>
-    <contour>
-      <point x="490" y="-129" type="line"/>
-      <point x="490" y="-88" type="line"/>
-      <point x="123" y="-88" type="line"/>
-      <point x="123" y="-129" type="line"/>
-    </contour>
-    <component base="n"/>
-  </outline>
+<glyph name="nlinebelow" format="2">
+	<advance width="611"/>
+	<unicode hex="1E49"/>
+	<note>
+		nlinebelow
+	</note>
+	<outline>
+		<contour>
+			<point x="123" y="-129" type="line"/>
+			<point x="490" y="-129" type="line"/>
+			<point x="490" y="-88" type="line"/>
+			<point x="123" y="-88" type="line"/>
+		</contour>
+		<component base="n"/>
+	</outline>
 </glyph>

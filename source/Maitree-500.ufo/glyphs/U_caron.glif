@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ucaron" format="1">
-  <advance width="793"/>
-  <unicode hex="01D3"/>
-  <note>
-	Ucaron
-  </note>
-  <outline>
-    <contour>
-      <point x="425" y="752" type="line"/>
-      <point x="537" y="895" type="line"/>
-      <point x="493" y="932" type="line"/>
-      <point x="400" y="830" type="line"/>
-      <point x="308" y="932" type="line"/>
-      <point x="264" y="895" type="line"/>
-      <point x="376" y="752" type="line"/>
-    </contour>
-    <component base="U"/>
-  </outline>
+<glyph name="Ucaron" format="2">
+	<advance width="793"/>
+	<unicode hex="01D3"/>
+	<note>
+		Ucaron
+	</note>
+	<outline>
+		<contour>
+			<point x="376" y="752" type="line"/>
+			<point x="425" y="752" type="line"/>
+			<point x="537" y="895" type="line"/>
+			<point x="493" y="932" type="line"/>
+			<point x="400" y="830" type="line"/>
+			<point x="308" y="932" type="line"/>
+			<point x="264" y="895" type="line"/>
+		</contour>
+		<component base="U"/>
+	</outline>
 </glyph>

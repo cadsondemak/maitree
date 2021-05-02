@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="1">
-  <advance width="381"/>
-  <unicode hex="00AF"/>
-  <note>
-	macron
-  </note>
-  <outline>
-    <contour>
-      <point x="329" y="561" type="line"/>
-      <point x="329" y="603" type="line"/>
-      <point x="52" y="603" type="line"/>
-      <point x="52" y="561" type="line"/>
-    </contour>
-  </outline>
+<glyph name="macron" format="2">
+	<advance width="381"/>
+	<unicode hex="00AF"/>
+	<note>
+		macron
+	</note>
+	<outline>
+		<contour>
+			<point x="52" y="561" type="line"/>
+			<point x="329" y="561" type="line"/>
+			<point x="329" y="603" type="line"/>
+			<point x="52" y="603" type="line"/>
+		</contour>
+	</outline>
 </glyph>

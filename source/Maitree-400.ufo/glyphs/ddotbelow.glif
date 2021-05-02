@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ddotbelow" format="1">
-  <advance width="584"/>
-  <unicode hex="1E0D"/>
-  <note>
-	ddotbelow
-  </note>
-  <outline>
-    <contour>
-      <point x="319" y="-164"/>
-      <point x="341" y="-143"/>
-      <point x="341" y="-115" type="curve" smooth="yes"/>
-      <point x="341" y="-86"/>
-      <point x="319" y="-65"/>
-      <point x="292" y="-65" type="curve" smooth="yes"/>
-      <point x="265" y="-65"/>
-      <point x="243" y="-86"/>
-      <point x="243" y="-115" type="curve" smooth="yes"/>
-      <point x="243" y="-143"/>
-      <point x="265" y="-164"/>
-      <point x="292" y="-164" type="curve" smooth="yes"/>
-    </contour>
-    <component base="d"/>
-  </outline>
+<glyph name="ddotbelow" format="2">
+	<advance width="584"/>
+	<unicode hex="1E0D"/>
+	<note>
+		ddotbelow
+	</note>
+	<outline>
+		<contour>
+			<point x="292" y="-164" type="curve" smooth="yes"/>
+			<point x="319" y="-164"/>
+			<point x="341" y="-143"/>
+			<point x="341" y="-115" type="curve" smooth="yes"/>
+			<point x="341" y="-86"/>
+			<point x="319" y="-65"/>
+			<point x="292" y="-65" type="curve" smooth="yes"/>
+			<point x="265" y="-65"/>
+			<point x="243" y="-86"/>
+			<point x="243" y="-115" type="curve" smooth="yes"/>
+			<point x="243" y="-143"/>
+			<point x="265" y="-164"/>
+		</contour>
+		<component base="d"/>
+	</outline>
 </glyph>

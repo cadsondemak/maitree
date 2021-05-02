@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="daggerdbl" format="1">
-  <advance width="492"/>
-  <unicode hex="2021"/>
-  <note>
-	daggerdbl
-  </note>
-  <outline>
-    <contour>
-      <point x="272" y="-125" type="line"/>
-      <point x="275" y="210" type="line"/>
-      <point x="446" y="210" type="line"/>
-      <point x="446" y="258" type="line"/>
-      <point x="275" y="258" type="line"/>
-      <point x="278" y="520" type="line"/>
-      <point x="446" y="520" type="line"/>
-      <point x="446" y="567" type="line"/>
-      <point x="278" y="567" type="line"/>
-      <point x="280" y="805" type="line"/>
-      <point x="213" y="805" type="line"/>
-      <point x="215" y="567" type="line"/>
-      <point x="46" y="567" type="line"/>
-      <point x="46" y="520" type="line"/>
-      <point x="215" y="520" type="line"/>
-      <point x="218" y="258" type="line"/>
-      <point x="46" y="258" type="line"/>
-      <point x="46" y="210" type="line"/>
-      <point x="218" y="210" type="line"/>
-      <point x="221" y="-125" type="line"/>
-    </contour>
-  </outline>
+<glyph name="daggerdbl" format="2">
+	<advance width="492"/>
+	<unicode hex="2021"/>
+	<note>
+		daggerdbl
+	</note>
+	<outline>
+		<contour>
+			<point x="221" y="-125" type="line"/>
+			<point x="272" y="-125" type="line"/>
+			<point x="275" y="210" type="line"/>
+			<point x="446" y="210" type="line"/>
+			<point x="446" y="258" type="line"/>
+			<point x="275" y="258" type="line"/>
+			<point x="278" y="520" type="line"/>
+			<point x="446" y="520" type="line"/>
+			<point x="446" y="567" type="line"/>
+			<point x="278" y="567" type="line"/>
+			<point x="280" y="805" type="line"/>
+			<point x="213" y="805" type="line"/>
+			<point x="215" y="567" type="line"/>
+			<point x="46" y="567" type="line"/>
+			<point x="46" y="520" type="line"/>
+			<point x="215" y="520" type="line"/>
+			<point x="218" y="258" type="line"/>
+			<point x="46" y="258" type="line"/>
+			<point x="46" y="210" type="line"/>
+			<point x="218" y="210" type="line"/>
+		</contour>
+	</outline>
 </glyph>

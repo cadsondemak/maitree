@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Igrave" format="1">
-  <advance width="351"/>
-  <unicode hex="00CC"/>
-  <note>
-	Igrave
-  </note>
-  <outline>
-    <contour>
-      <point x="230" y="781" type="line"/>
-      <point x="143" y="927" type="line"/>
-      <point x="83" y="888" type="line"/>
-      <point x="185" y="752" type="line"/>
-    </contour>
-    <component base="I"/>
-  </outline>
+<glyph name="Igrave" format="2">
+	<advance width="351"/>
+	<unicode hex="00CC"/>
+	<note>
+		Igrave
+	</note>
+	<outline>
+		<contour>
+			<point x="185" y="752" type="line"/>
+			<point x="230" y="781" type="line"/>
+			<point x="143" y="927" type="line"/>
+			<point x="83" y="888" type="line"/>
+		</contour>
+		<component base="I"/>
+	</outline>
 </glyph>

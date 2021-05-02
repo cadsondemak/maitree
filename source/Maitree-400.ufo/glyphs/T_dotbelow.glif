@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tdotbelow" format="1">
-  <advance width="596"/>
-  <unicode hex="1E6C"/>
-  <note>
-	Tdotbelow
-  </note>
-  <outline>
-    <contour>
-      <point x="325" y="-164"/>
-      <point x="347" y="-143"/>
-      <point x="347" y="-115" type="curve" smooth="yes"/>
-      <point x="347" y="-86"/>
-      <point x="325" y="-65"/>
-      <point x="298" y="-65" type="curve" smooth="yes"/>
-      <point x="271" y="-65"/>
-      <point x="249" y="-86"/>
-      <point x="249" y="-115" type="curve" smooth="yes"/>
-      <point x="249" y="-143"/>
-      <point x="271" y="-164"/>
-      <point x="298" y="-164" type="curve" smooth="yes"/>
-    </contour>
-    <component base="T"/>
-  </outline>
+<glyph name="Tdotbelow" format="2">
+	<advance width="596"/>
+	<unicode hex="1E6C"/>
+	<note>
+		Tdotbelow
+	</note>
+	<outline>
+		<contour>
+			<point x="298" y="-164" type="curve" smooth="yes"/>
+			<point x="325" y="-164"/>
+			<point x="347" y="-143"/>
+			<point x="347" y="-115" type="curve" smooth="yes"/>
+			<point x="347" y="-86"/>
+			<point x="325" y="-65"/>
+			<point x="298" y="-65" type="curve" smooth="yes"/>
+			<point x="271" y="-65"/>
+			<point x="249" y="-86"/>
+			<point x="249" y="-115" type="curve" smooth="yes"/>
+			<point x="249" y="-143"/>
+			<point x="271" y="-164"/>
+		</contour>
+		<component base="T"/>
+	</outline>
 </glyph>

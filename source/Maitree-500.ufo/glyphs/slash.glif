@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slash" format="1">
-  <advance width="378"/>
-  <unicode hex="002F"/>
-  <note>
-	slash
-  </note>
-  <outline>
-    <contour>
-      <point x="403" y="717" type="line"/>
-      <point x="315" y="750" type="line"/>
-      <point x="-30" y="-100" type="line"/>
-      <point x="57" y="-133" type="line"/>
-    </contour>
-  </outline>
+<glyph name="slash" format="2">
+	<advance width="378"/>
+	<unicode hex="002F"/>
+	<note>
+		slash
+	</note>
+	<outline>
+		<contour>
+			<point x="57" y="-133" type="line"/>
+			<point x="403" y="717" type="line"/>
+			<point x="315" y="750" type="line"/>
+			<point x="-30" y="-100" type="line"/>
+		</contour>
+	</outline>
 </glyph>

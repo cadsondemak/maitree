@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tcommaaccent" format="1">
-  <advance width="632"/>
-  <unicode hex="021A"/>
-  <note>
-	Tcommaaccent
-  </note>
-  <outline>
-    <contour>
-      <point x="329" y="-223"/>
-      <point x="371" y="-134"/>
-      <point x="386" y="-76" type="curve"/>
-      <point x="291" y="-54" type="line" smooth="yes"/>
-      <point x="261" y="-48"/>
-      <point x="241" y="-60"/>
-      <point x="241" y="-85" type="curve" smooth="yes"/>
-      <point x="241" y="-97"/>
-      <point x="248" y="-103"/>
-      <point x="258" y="-107" type="curve"/>
-      <point x="285" y="-115" type="line"/>
-      <point x="281" y="-149"/>
-      <point x="250" y="-212"/>
-      <point x="225" y="-248" type="curve"/>
-      <point x="277" y="-280" type="line"/>
-    </contour>
-    <component base="T"/>
-  </outline>
+<glyph name="Tcommaaccent" format="2">
+	<advance width="632"/>
+	<unicode hex="021A"/>
+	<note>
+		Tcommaaccent
+	</note>
+	<outline>
+		<contour>
+			<point x="277" y="-280" type="line"/>
+			<point x="329" y="-223"/>
+			<point x="371" y="-134"/>
+			<point x="386" y="-76" type="curve"/>
+			<point x="291" y="-54" type="line" smooth="yes"/>
+			<point x="261" y="-48"/>
+			<point x="241" y="-60"/>
+			<point x="241" y="-85" type="curve" smooth="yes"/>
+			<point x="241" y="-97"/>
+			<point x="248" y="-103"/>
+			<point x="258" y="-107" type="curve"/>
+			<point x="285" y="-115" type="line"/>
+			<point x="281" y="-149"/>
+			<point x="250" y="-212"/>
+			<point x="225" y="-248" type="curve"/>
+		</contour>
+		<component base="T"/>
+	</outline>
 </glyph>

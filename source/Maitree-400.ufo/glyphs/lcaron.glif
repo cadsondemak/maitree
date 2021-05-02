@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcaron" format="1">
-  <advance width="378"/>
-  <unicode hex="013E"/>
-  <note>
-	lcaron
-  </note>
-  <outline>
-    <contour>
-      <point x="317" y="566"/>
-      <point x="348" y="634"/>
-      <point x="363" y="691" type="curve"/>
-      <point x="288" y="709" type="line" smooth="yes"/>
-      <point x="267" y="714"/>
-      <point x="252" y="705"/>
-      <point x="252" y="686" type="curve" smooth="yes"/>
-      <point x="252" y="678"/>
-      <point x="257" y="673"/>
-      <point x="264" y="671" type="curve"/>
-      <point x="293" y="661" type="line"/>
-      <point x="289" y="629"/>
-      <point x="264" y="575"/>
-      <point x="240" y="539" type="curve"/>
-      <point x="275" y="517" type="line"/>
-    </contour>
-    <component base="l"/>
-  </outline>
+<glyph name="lcaron" format="2">
+	<advance width="378"/>
+	<unicode hex="013E"/>
+	<note>
+		lcaron
+	</note>
+	<outline>
+		<contour>
+			<point x="275" y="517" type="line"/>
+			<point x="317" y="566"/>
+			<point x="348" y="634"/>
+			<point x="363" y="691" type="curve"/>
+			<point x="288" y="709" type="line" smooth="yes"/>
+			<point x="267" y="714"/>
+			<point x="252" y="705"/>
+			<point x="252" y="686" type="curve" smooth="yes"/>
+			<point x="252" y="678"/>
+			<point x="257" y="673"/>
+			<point x="264" y="671" type="curve"/>
+			<point x="293" y="661" type="line"/>
+			<point x="289" y="629"/>
+			<point x="264" y="575"/>
+			<point x="240" y="539" type="curve"/>
+		</contour>
+		<component base="l"/>
+	</outline>
 </glyph>

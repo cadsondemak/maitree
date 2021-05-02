@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhungarumlaut" format="1">
-  <advance width="793"/>
-  <unicode hex="0170"/>
-  <note>
-	Uhungarumlaut
-  </note>
-  <outline>
-    <contour>
-      <point x="431" y="941" type="line"/>
-      <point x="369" y="979" type="line"/>
-      <point x="251" y="793" type="line"/>
-      <point x="293" y="764" type="line"/>
-    </contour>
-    <contour>
-      <point x="614" y="941" type="line"/>
-      <point x="552" y="979" type="line"/>
-      <point x="434" y="793" type="line"/>
-      <point x="476" y="764" type="line"/>
-    </contour>
-    <component base="U"/>
-  </outline>
+<glyph name="Uhungarumlaut" format="2">
+	<advance width="793"/>
+	<unicode hex="0170"/>
+	<note>
+		Uhungarumlaut
+	</note>
+	<outline>
+		<contour>
+			<point x="293" y="764" type="line"/>
+			<point x="431" y="941" type="line"/>
+			<point x="369" y="979" type="line"/>
+			<point x="251" y="793" type="line"/>
+		</contour>
+		<contour>
+			<point x="476" y="764" type="line"/>
+			<point x="614" y="941" type="line"/>
+			<point x="552" y="979" type="line"/>
+			<point x="434" y="793" type="line"/>
+		</contour>
+		<component base="U"/>
+	</outline>
 </glyph>

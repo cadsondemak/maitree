@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tlinebelow" format="1">
-  <advance width="612"/>
-  <unicode hex="1E6E"/>
-  <note>
-	Tlinebelow
-  </note>
-  <outline>
-    <contour>
-      <point x="503" y="-153" type="line"/>
-      <point x="503" y="-88" type="line"/>
-      <point x="115" y="-88" type="line"/>
-      <point x="115" y="-153" type="line"/>
-    </contour>
-    <component base="T"/>
-  </outline>
+<glyph name="Tlinebelow" format="2">
+	<advance width="612"/>
+	<unicode hex="1E6E"/>
+	<note>
+		Tlinebelow
+	</note>
+	<outline>
+		<contour>
+			<point x="115" y="-153" type="line"/>
+			<point x="503" y="-153" type="line"/>
+			<point x="503" y="-88" type="line"/>
+			<point x="115" y="-88" type="line"/>
+		</contour>
+		<component base="T"/>
+	</outline>
 </glyph>

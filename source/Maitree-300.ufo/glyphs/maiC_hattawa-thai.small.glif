@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="maiChattawa-thai.small" format="1">
-  <advance width="0"/>
-  <note>
-	maiChattawa-thai.small
-  </note>
-  <outline>
-    <contour>
-      <point x="-87" y="870"/>
-      <point x="-79" y="879"/>
-      <point x="-80" y="891" type="curve" smooth="yes"/>
-      <point x="-84" y="948" type="line"/>
-      <point x="-34" y="945" type="line" smooth="yes"/>
-      <point x="-15" y="944"/>
-      <point x="-4" y="949"/>
-      <point x="-4" y="967" type="curve" smooth="yes"/>
-      <point x="-4" y="982"/>
-      <point x="-12" y="986"/>
-      <point x="-28" y="985" type="curve" smooth="yes"/>
-      <point x="-84" y="982" type="line"/>
-      <point x="-81" y="1030" type="line" smooth="yes"/>
-      <point x="-80" y="1048"/>
-      <point x="-87" y="1060"/>
-      <point x="-105" y="1060" type="curve" smooth="yes"/>
-      <point x="-119" y="1060"/>
-      <point x="-126" y="1051"/>
-      <point x="-125" y="1039" type="curve" smooth="yes"/>
-      <point x="-122" y="982" type="line"/>
-      <point x="-172" y="985" type="line" smooth="yes"/>
-      <point x="-190" y="986"/>
-      <point x="-201" y="982"/>
-      <point x="-201" y="963" type="curve" smooth="yes"/>
-      <point x="-201" y="948"/>
-      <point x="-192" y="944"/>
-      <point x="-178" y="945" type="curve" smooth="yes"/>
-      <point x="-122" y="948" type="line"/>
-      <point x="-124" y="900" type="line" smooth="yes"/>
-      <point x="-125" y="882"/>
-      <point x="-119" y="870"/>
-      <point x="-101" y="870" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="-82" y="713" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="-82" y="512" type="move" name="_top"/>
-    </contour>
-  </outline>
+<glyph name="maiChattawa-thai.small" format="2">
+	<advance width="0"/>
+	<anchor x="-82" y="713" name="top"/>
+	<anchor x="-82" y="512" name="_top"/>
+	<note>
+		maiChattawa-thai.small
+	</note>
+	<outline>
+		<contour>
+			<point x="-101" y="870" type="curve" smooth="yes"/>
+			<point x="-87" y="870"/>
+			<point x="-79" y="879"/>
+			<point x="-80" y="891" type="curve" smooth="yes"/>
+			<point x="-84" y="948" type="line"/>
+			<point x="-34" y="945" type="line" smooth="yes"/>
+			<point x="-15" y="944"/>
+			<point x="-4" y="949"/>
+			<point x="-4" y="967" type="curve" smooth="yes"/>
+			<point x="-4" y="982"/>
+			<point x="-12" y="986"/>
+			<point x="-28" y="985" type="curve" smooth="yes"/>
+			<point x="-84" y="982" type="line"/>
+			<point x="-81" y="1030" type="line" smooth="yes"/>
+			<point x="-80" y="1048"/>
+			<point x="-87" y="1060"/>
+			<point x="-105" y="1060" type="curve" smooth="yes"/>
+			<point x="-119" y="1060"/>
+			<point x="-126" y="1051"/>
+			<point x="-125" y="1039" type="curve" smooth="yes"/>
+			<point x="-122" y="982" type="line"/>
+			<point x="-172" y="985" type="line" smooth="yes"/>
+			<point x="-190" y="986"/>
+			<point x="-201" y="982"/>
+			<point x="-201" y="963" type="curve" smooth="yes"/>
+			<point x="-201" y="948"/>
+			<point x="-192" y="944"/>
+			<point x="-178" y="945" type="curve" smooth="yes"/>
+			<point x="-122" y="948" type="line"/>
+			<point x="-124" y="900" type="line" smooth="yes"/>
+			<point x="-125" y="882"/>
+			<point x="-119" y="870"/>
+		</contour>
+	</outline>
 </glyph>

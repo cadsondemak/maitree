@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Otilde" format="1">
-  <advance width="766"/>
-  <unicode hex="00D5"/>
-  <note>
-	Otilde
-  </note>
-  <outline>
-    <contour>
-      <point x="571" y="-15"/>
-      <point x="727" y="93"/>
-      <point x="727" y="347" type="curve" smooth="yes"/>
-      <point x="727" y="601"/>
-      <point x="571" y="710"/>
-      <point x="383" y="710" type="curve" smooth="yes"/>
-      <point x="195" y="710"/>
-      <point x="39" y="601"/>
-      <point x="39" y="347" type="curve" smooth="yes"/>
-      <point x="39" y="93"/>
-      <point x="195" y="-15"/>
-      <point x="383" y="-15" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="256" y="79"/>
-      <point x="191" y="174"/>
-      <point x="191" y="347" type="curve" smooth="yes"/>
-      <point x="191" y="520"/>
-      <point x="256" y="616"/>
-      <point x="383" y="616" type="curve" smooth="yes"/>
-      <point x="510" y="616"/>
-      <point x="575" y="520"/>
-      <point x="575" y="347" type="curve" smooth="yes"/>
-      <point x="575" y="174"/>
-      <point x="510" y="79"/>
-      <point x="383" y="79" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="485" y="765"/>
-      <point x="523" y="784"/>
-      <point x="556" y="818" type="curve"/>
-      <point x="509" y="885" type="line"/>
-      <point x="489" y="870"/>
-      <point x="471" y="862"/>
-      <point x="450" y="862" type="curve" smooth="yes"/>
-      <point x="404" y="862"/>
-      <point x="367" y="903"/>
-      <point x="319" y="903" type="curve" smooth="yes"/>
-      <point x="285" y="903"/>
-      <point x="243" y="880"/>
-      <point x="210" y="850" type="curve"/>
-      <point x="257" y="782" type="line"/>
-      <point x="276" y="796"/>
-      <point x="293" y="806"/>
-      <point x="319" y="806" type="curve" smooth="yes"/>
-      <point x="365" y="806"/>
-      <point x="402" y="765"/>
-      <point x="451" y="765" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+<glyph name="Otilde" format="2">
+	<advance width="766"/>
+	<unicode hex="00D5"/>
+	<note>
+		Otilde
+	</note>
+	<outline>
+		<contour>
+			<point x="383" y="-15" type="curve" smooth="yes"/>
+			<point x="571" y="-15"/>
+			<point x="727" y="93"/>
+			<point x="727" y="347" type="curve" smooth="yes"/>
+			<point x="727" y="601"/>
+			<point x="571" y="710"/>
+			<point x="383" y="710" type="curve" smooth="yes"/>
+			<point x="195" y="710"/>
+			<point x="39" y="601"/>
+			<point x="39" y="347" type="curve" smooth="yes"/>
+			<point x="39" y="93"/>
+			<point x="195" y="-15"/>
+		</contour>
+		<contour>
+			<point x="383" y="79" type="curve" smooth="yes"/>
+			<point x="256" y="79"/>
+			<point x="191" y="174"/>
+			<point x="191" y="347" type="curve" smooth="yes"/>
+			<point x="191" y="520"/>
+			<point x="256" y="616"/>
+			<point x="383" y="616" type="curve" smooth="yes"/>
+			<point x="510" y="616"/>
+			<point x="575" y="520"/>
+			<point x="575" y="347" type="curve" smooth="yes"/>
+			<point x="575" y="174"/>
+			<point x="510" y="79"/>
+		</contour>
+		<contour>
+			<point x="451" y="765" type="curve" smooth="yes"/>
+			<point x="485" y="765"/>
+			<point x="523" y="784"/>
+			<point x="556" y="818" type="curve"/>
+			<point x="509" y="885" type="line"/>
+			<point x="489" y="870"/>
+			<point x="471" y="862"/>
+			<point x="450" y="862" type="curve" smooth="yes"/>
+			<point x="404" y="862"/>
+			<point x="367" y="903"/>
+			<point x="319" y="903" type="curve" smooth="yes"/>
+			<point x="285" y="903"/>
+			<point x="243" y="880"/>
+			<point x="210" y="850" type="curve"/>
+			<point x="257" y="782" type="line"/>
+			<point x="276" y="796"/>
+			<point x="293" y="806"/>
+			<point x="319" y="806" type="curve" smooth="yes"/>
+			<point x="365" y="806"/>
+			<point x="402" y="765"/>
+		</contour>
+	</outline>
 </glyph>

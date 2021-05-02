@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Icircumflex" format="1">
-  <advance width="335"/>
-  <unicode hex="00CE"/>
-  <note>
-	Icircumflex
-  </note>
-  <outline>
-    <contour>
-      <point x="167" y="850" type="line"/>
-      <point x="258" y="751" type="line"/>
-      <point x="295" y="781" type="line"/>
-      <point x="188" y="917" type="line"/>
-      <point x="146" y="917" type="line"/>
-      <point x="39" y="781" type="line"/>
-      <point x="76" y="751" type="line"/>
-    </contour>
-    <component base="I" xOffset="-5"/>
-  </outline>
+<glyph name="Icircumflex" format="2">
+	<advance width="335"/>
+	<unicode hex="00CE"/>
+	<note>
+		Icircumflex
+	</note>
+	<outline>
+		<contour>
+			<point x="76" y="751" type="line"/>
+			<point x="167" y="850" type="line"/>
+			<point x="258" y="751" type="line"/>
+			<point x="295" y="781" type="line"/>
+			<point x="188" y="917" type="line"/>
+			<point x="146" y="917" type="line"/>
+			<point x="39" y="781" type="line"/>
+		</contour>
+		<component base="I" xOffset="-5"/>
+	</outline>
 </glyph>

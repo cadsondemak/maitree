@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni031B" format="1">
-  <advance width="0"/>
-  <unicode hex="031B"/>
-  <note>
-	uni031B
-  </note>
-  <outline>
-    <contour>
-      <point x="154" y="454"/>
-      <point x="219" y="523"/>
-      <point x="219" y="637" type="curve"/>
-      <point x="36" y="637" type="line"/>
-      <point x="36" y="575" type="line"/>
-      <point x="112" y="575" type="line"/>
-      <point x="105" y="531"/>
-      <point x="79" y="496"/>
-      <point x="32" y="470" type="curve"/>
-      <point x="77" y="414" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni031B" format="2">
+	<advance width="0"/>
+	<unicode hex="031B"/>
+	<note>
+		uni031B
+	</note>
+	<outline>
+		<contour>
+			<point x="77" y="414" type="line"/>
+			<point x="154" y="454"/>
+			<point x="219" y="523"/>
+			<point x="219" y="637" type="curve"/>
+			<point x="36" y="637" type="line"/>
+			<point x="36" y="575" type="line"/>
+			<point x="112" y="575" type="line"/>
+			<point x="105" y="531"/>
+			<point x="79" y="496"/>
+			<point x="32" y="470" type="curve"/>
+		</contour>
+	</outline>
 </glyph>

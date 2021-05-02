@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lessequal" format="1">
-  <advance width="557"/>
-  <unicode hex="2264"/>
-  <note>
-	lessequal
-  </note>
-  <outline>
-    <contour>
-      <point x="453" y="229" type="line"/>
-      <point x="185" y="387" type="line"/>
-      <point x="453" y="545" type="line"/>
-      <point x="414" y="613" type="line"/>
-      <point x="88" y="420" type="line"/>
-      <point x="88" y="354" type="line"/>
-      <point x="414" y="161" type="line"/>
-    </contour>
-    <contour>
-      <point x="501" y="0" type="line"/>
-      <point x="501" y="65" type="line"/>
-      <point x="57" y="65" type="line"/>
-      <point x="57" y="0" type="line"/>
-    </contour>
-  </outline>
+<glyph name="lessequal" format="2">
+	<advance width="557"/>
+	<unicode hex="2264"/>
+	<note>
+		lessequal
+	</note>
+	<outline>
+		<contour>
+			<point x="414" y="161" type="line"/>
+			<point x="453" y="229" type="line"/>
+			<point x="185" y="387" type="line"/>
+			<point x="453" y="545" type="line"/>
+			<point x="414" y="613" type="line"/>
+			<point x="88" y="420" type="line"/>
+			<point x="88" y="354" type="line"/>
+		</contour>
+		<contour>
+			<point x="57" y="0" type="line"/>
+			<point x="501" y="0" type="line"/>
+			<point x="501" y="65" type="line"/>
+			<point x="57" y="65" type="line"/>
+		</contour>
+	</outline>
 </glyph>

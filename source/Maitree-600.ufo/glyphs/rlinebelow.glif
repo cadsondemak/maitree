@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rlinebelow" format="1">
-  <advance width="468"/>
-  <unicode hex="1E5F"/>
-  <note>
-	rlinebelow
-  </note>
-  <outline>
-    <contour>
-      <point x="433" y="-167" type="line"/>
-      <point x="433" y="-88" type="line"/>
-      <point x="45" y="-88" type="line"/>
-      <point x="45" y="-167" type="line"/>
-    </contour>
-    <component base="r" xOffset="7"/>
-  </outline>
+<glyph name="rlinebelow" format="2">
+	<advance width="468"/>
+	<unicode hex="1E5F"/>
+	<note>
+		rlinebelow
+	</note>
+	<outline>
+		<contour>
+			<point x="45" y="-167" type="line"/>
+			<point x="433" y="-167" type="line"/>
+			<point x="433" y="-88" type="line"/>
+			<point x="45" y="-88" type="line"/>
+		</contour>
+		<component base="r" xOffset="7"/>
+	</outline>
 </glyph>

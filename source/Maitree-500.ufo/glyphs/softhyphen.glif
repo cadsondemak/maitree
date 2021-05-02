@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="softhyphen" format="1">
-  <advance width="299"/>
-  <unicode hex="00AD"/>
-  <note>
-	softhyphen
-  </note>
-  <outline>
-    <contour>
-      <point x="255" y="273" type="line"/>
-      <point x="255" y="352" type="line"/>
-      <point x="45" y="352" type="line"/>
-      <point x="45" y="273" type="line"/>
-    </contour>
-  </outline>
+<glyph name="softhyphen" format="2">
+	<advance width="299"/>
+	<unicode hex="00AD"/>
+	<note>
+		softhyphen
+	</note>
+	<outline>
+		<contour>
+			<point x="45" y="273" type="line"/>
+			<point x="255" y="273" type="line"/>
+			<point x="255" y="352" type="line"/>
+			<point x="45" y="352" type="line"/>
+		</contour>
+	</outline>
 </glyph>

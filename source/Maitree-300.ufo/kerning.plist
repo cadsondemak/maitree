@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>B</key>
@@ -391,7 +391,7 @@
 		<key>I</key>
 		<real>-3.4482800960540771</real>
 		<key>M</key>
-		<real>-0.67241400480270386</real>
+		<real>-0.67241001129150391</real>
 		<key>T</key>
 		<real>-2.6724100112915039</real>
 		<key>U</key>

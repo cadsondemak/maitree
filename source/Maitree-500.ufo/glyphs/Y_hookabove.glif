@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Yhookabove" format="1">
-  <advance width="705"/>
-  <unicode hex="1EF6"/>
-  <note>
-	Yhookabove
-  </note>
-  <outline>
-    <contour>
-      <point x="378" y="750" type="line"/>
-      <point x="384" y="796" type="line"/>
-      <point x="423" y="810"/>
-      <point x="447" y="837"/>
-      <point x="447" y="871" type="curve" smooth="yes"/>
-      <point x="447" y="912"/>
-      <point x="411" y="943"/>
-      <point x="358" y="943" type="curve" smooth="yes"/>
-      <point x="335" y="943"/>
-      <point x="307" y="935"/>
-      <point x="291" y="928" type="curve"/>
-      <point x="298" y="890" type="line"/>
-      <point x="315" y="895"/>
-      <point x="332" y="899"/>
-      <point x="349" y="899" type="curve" smooth="yes"/>
-      <point x="371" y="899"/>
-      <point x="382" y="889"/>
-      <point x="382" y="870" type="curve" smooth="yes"/>
-      <point x="382" y="847"/>
-      <point x="361" y="831"/>
-      <point x="326" y="819" type="curve"/>
-      <point x="332" y="750" type="line"/>
-    </contour>
-    <component base="Y"/>
-  </outline>
+<glyph name="Yhookabove" format="2">
+	<advance width="705"/>
+	<unicode hex="1EF6"/>
+	<note>
+		Yhookabove
+	</note>
+	<outline>
+		<contour>
+			<point x="332" y="750" type="line"/>
+			<point x="378" y="750" type="line"/>
+			<point x="384" y="796" type="line"/>
+			<point x="423" y="810"/>
+			<point x="447" y="837"/>
+			<point x="447" y="871" type="curve" smooth="yes"/>
+			<point x="447" y="912"/>
+			<point x="411" y="943"/>
+			<point x="358" y="943" type="curve" smooth="yes"/>
+			<point x="335" y="943"/>
+			<point x="307" y="935"/>
+			<point x="291" y="928" type="curve"/>
+			<point x="298" y="890" type="line"/>
+			<point x="315" y="895"/>
+			<point x="332" y="899"/>
+			<point x="349" y="899" type="curve" smooth="yes"/>
+			<point x="371" y="899"/>
+			<point x="382" y="889"/>
+			<point x="382" y="870" type="curve" smooth="yes"/>
+			<point x="382" y="847"/>
+			<point x="361" y="831"/>
+			<point x="326" y="819" type="curve"/>
+		</contour>
+		<component base="Y"/>
+	</outline>
 </glyph>

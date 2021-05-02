@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wacute" format="1">
-  <advance width="902"/>
-  <unicode hex="1E83"/>
-  <note>
-	wacute
-  </note>
-  <outline>
-    <contour>
-      <point x="590" y="720" type="line"/>
-      <point x="502" y="778" type="line"/>
-      <point x="399" y="605" type="line"/>
-      <point x="467" y="561" type="line"/>
-    </contour>
-    <component base="w"/>
-  </outline>
+<glyph name="wacute" format="2">
+	<advance width="902"/>
+	<unicode hex="1E83"/>
+	<note>
+		wacute
+	</note>
+	<outline>
+		<contour>
+			<point x="467" y="561" type="line"/>
+			<point x="590" y="720" type="line"/>
+			<point x="502" y="778" type="line"/>
+			<point x="399" y="605" type="line"/>
+		</contour>
+		<component base="w"/>
+	</outline>
 </glyph>

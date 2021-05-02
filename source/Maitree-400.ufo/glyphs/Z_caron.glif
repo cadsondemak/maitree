@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zcaron" format="1">
-  <advance width="629"/>
-  <unicode hex="017D"/>
-  <note>
-	Zcaron
-  </note>
-  <outline>
-    <contour>
-      <point x="343" y="751" type="line"/>
-      <point x="450" y="887" type="line"/>
-      <point x="413" y="917" type="line"/>
-      <point x="322" y="818" type="line"/>
-      <point x="231" y="917" type="line"/>
-      <point x="194" y="887" type="line"/>
-      <point x="301" y="751" type="line"/>
-    </contour>
-    <component base="Z"/>
-  </outline>
+<glyph name="Zcaron" format="2">
+	<advance width="629"/>
+	<unicode hex="017D"/>
+	<note>
+		Zcaron
+	</note>
+	<outline>
+		<contour>
+			<point x="301" y="751" type="line"/>
+			<point x="343" y="751" type="line"/>
+			<point x="450" y="887" type="line"/>
+			<point x="413" y="917" type="line"/>
+			<point x="322" y="818" type="line"/>
+			<point x="231" y="917" type="line"/>
+			<point x="194" y="887" type="line"/>
+		</contour>
+		<component base="Z"/>
+	</outline>
 </glyph>

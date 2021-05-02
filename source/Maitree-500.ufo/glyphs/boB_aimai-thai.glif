@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="boBaimai-thai" format="1">
-  <advance width="656"/>
-  <unicode hex="0E1A"/>
-  <note>
-	boBaimai-thai
-  </note>
-  <outline>
-    <contour>
-      <point x="468" y="0" type="line" smooth="yes"/>
-      <point x="542" y="0"/>
-      <point x="576" y="34"/>
-      <point x="576" y="104" type="curve" smooth="yes"/>
-      <point x="576" y="512" type="line" smooth="yes"/>
-      <point x="576" y="537"/>
-      <point x="559" y="552"/>
-      <point x="526" y="552" type="curve" smooth="yes"/>
-      <point x="500" y="552"/>
-      <point x="487" y="538"/>
-      <point x="487" y="522" type="curve" smooth="yes"/>
-      <point x="487" y="121" type="line" smooth="yes"/>
-      <point x="487" y="72"/>
-      <point x="470" y="56"/>
-      <point x="420" y="56" type="curve" smooth="yes"/>
-      <point x="238" y="56" type="line"/>
-      <point x="238" y="450" type="line" smooth="yes"/>
-      <point x="238" y="511"/>
-      <point x="202" y="557"/>
-      <point x="132" y="557" type="curve" smooth="yes"/>
-      <point x="75" y="557"/>
-      <point x="31" y="520"/>
-      <point x="31" y="463" type="curve" smooth="yes"/>
-      <point x="31" y="405"/>
-      <point x="76" y="370"/>
-      <point x="124" y="370" type="curve" smooth="yes"/>
-      <point x="136" y="370"/>
-      <point x="145" y="372"/>
-      <point x="152" y="376" type="curve"/>
-      <point x="150" y="362"/>
-      <point x="148" y="347"/>
-      <point x="148" y="331" type="curve" smooth="yes"/>
-      <point x="148" y="56" type="line"/>
-      <point x="118" y="56" type="line" smooth="yes"/>
-      <point x="91" y="56"/>
-      <point x="76" y="44"/>
-      <point x="76" y="23" type="curve" smooth="yes"/>
-      <point x="76" y="7"/>
-      <point x="86" y="0"/>
-      <point x="95" y="0" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="106" y="413"/>
-      <point x="84" y="431"/>
-      <point x="84" y="463" type="curve" smooth="yes"/>
-      <point x="84" y="496"/>
-      <point x="106" y="514"/>
-      <point x="132" y="514" type="curve" smooth="yes"/>
-      <point x="159" y="514"/>
-      <point x="180" y="496"/>
-      <point x="180" y="463" type="curve" smooth="yes"/>
-      <point x="180" y="431"/>
-      <point x="159" y="413"/>
-      <point x="132" y="413" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+<glyph name="boBaimai-thai" format="2">
+	<advance width="656"/>
+	<unicode hex="0E1A"/>
+	<note>
+		boBaimai-thai
+	</note>
+	<outline>
+		<contour>
+			<point x="95" y="0" type="curve" smooth="yes"/>
+			<point x="468" y="0" type="line" smooth="yes"/>
+			<point x="542" y="0"/>
+			<point x="576" y="34"/>
+			<point x="576" y="104" type="curve" smooth="yes"/>
+			<point x="576" y="512" type="line" smooth="yes"/>
+			<point x="576" y="537"/>
+			<point x="559" y="552"/>
+			<point x="526" y="552" type="curve" smooth="yes"/>
+			<point x="500" y="552"/>
+			<point x="487" y="538"/>
+			<point x="487" y="522" type="curve" smooth="yes"/>
+			<point x="487" y="121" type="line" smooth="yes"/>
+			<point x="487" y="72"/>
+			<point x="470" y="56"/>
+			<point x="420" y="56" type="curve" smooth="yes"/>
+			<point x="238" y="56" type="line"/>
+			<point x="238" y="450" type="line" smooth="yes"/>
+			<point x="238" y="511"/>
+			<point x="202" y="557"/>
+			<point x="132" y="557" type="curve" smooth="yes"/>
+			<point x="75" y="557"/>
+			<point x="31" y="520"/>
+			<point x="31" y="463" type="curve" smooth="yes"/>
+			<point x="31" y="405"/>
+			<point x="76" y="370"/>
+			<point x="124" y="370" type="curve" smooth="yes"/>
+			<point x="136" y="370"/>
+			<point x="145" y="372"/>
+			<point x="152" y="376" type="curve"/>
+			<point x="150" y="362"/>
+			<point x="148" y="347"/>
+			<point x="148" y="331" type="curve" smooth="yes"/>
+			<point x="148" y="56" type="line"/>
+			<point x="118" y="56" type="line" smooth="yes"/>
+			<point x="91" y="56"/>
+			<point x="76" y="44"/>
+			<point x="76" y="23" type="curve" smooth="yes"/>
+			<point x="76" y="7"/>
+			<point x="86" y="0"/>
+		</contour>
+		<contour>
+			<point x="132" y="413" type="curve" smooth="yes"/>
+			<point x="106" y="413"/>
+			<point x="84" y="431"/>
+			<point x="84" y="463" type="curve" smooth="yes"/>
+			<point x="84" y="496"/>
+			<point x="106" y="514"/>
+			<point x="132" y="514" type="curve" smooth="yes"/>
+			<point x="159" y="514"/>
+			<point x="180" y="496"/>
+			<point x="180" y="463" type="curve" smooth="yes"/>
+			<point x="180" y="431"/>
+			<point x="159" y="413"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexgrave" format="1">
-  <advance width="0"/>
-  <note>
-	circumflexgrave
-  </note>
-  <outline>
-    <contour>
-      <point x="-251" y="639" type="line"/>
-      <point x="-158" y="537" type="line"/>
-      <point x="-115" y="574" type="line"/>
-      <point x="-227" y="717" type="line"/>
-      <point x="-276" y="717" type="line"/>
-      <point x="-388" y="574" type="line"/>
-      <point x="-344" y="537" type="line"/>
-    </contour>
-    <contour>
-      <point x="-350" y="675" type="line"/>
-      <point x="-415" y="790" type="line"/>
-      <point x="-480" y="748" type="line"/>
-      <point x="-394" y="646" type="line"/>
-    </contour>
-  </outline>
+<glyph name="circumflexgrave" format="2">
+	<advance width="0"/>
+	<note>
+		circumflexgrave
+	</note>
+	<outline>
+		<contour>
+			<point x="-344" y="537" type="line"/>
+			<point x="-251" y="639" type="line"/>
+			<point x="-158" y="537" type="line"/>
+			<point x="-115" y="574" type="line"/>
+			<point x="-227" y="717" type="line"/>
+			<point x="-276" y="717" type="line"/>
+			<point x="-388" y="574" type="line"/>
+		</contour>
+		<contour>
+			<point x="-394" y="646" type="line"/>
+			<point x="-350" y="675" type="line"/>
+			<point x="-415" y="790" type="line"/>
+			<point x="-480" y="748" type="line"/>
+		</contour>
+	</outline>
 </glyph>

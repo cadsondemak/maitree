@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Gcaron" format="1">
-  <advance width="725"/>
-  <unicode hex="01E6"/>
-  <note>
-	Gcaron
-  </note>
-  <outline>
-    <contour>
-      <point x="400" y="752" type="line"/>
-      <point x="512" y="895" type="line"/>
-      <point x="468" y="932" type="line"/>
-      <point x="375" y="830" type="line"/>
-      <point x="283" y="932" type="line"/>
-      <point x="239" y="895" type="line"/>
-      <point x="351" y="752" type="line"/>
-    </contour>
-    <component base="G"/>
-  </outline>
+<glyph name="Gcaron" format="2">
+	<advance width="725"/>
+	<unicode hex="01E6"/>
+	<note>
+		Gcaron
+	</note>
+	<outline>
+		<contour>
+			<point x="351" y="752" type="line"/>
+			<point x="400" y="752" type="line"/>
+			<point x="512" y="895" type="line"/>
+			<point x="468" y="932" type="line"/>
+			<point x="375" y="830" type="line"/>
+			<point x="283" y="932" type="line"/>
+			<point x="239" y="895" type="line"/>
+		</contour>
+		<component base="G"/>
+	</outline>
 </glyph>

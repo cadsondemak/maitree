@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nacute" format="1">
-  <advance width="611"/>
-  <unicode hex="0144"/>
-  <note>
-	nacute
-  </note>
-  <outline>
-    <contour>
-      <point x="377" y="684" type="line"/>
-      <point x="330" y="714" type="line"/>
-      <point x="249" y="580" type="line"/>
-      <point x="284" y="558" type="line"/>
-    </contour>
-    <component base="n"/>
-  </outline>
+<glyph name="nacute" format="2">
+	<advance width="611"/>
+	<unicode hex="0144"/>
+	<note>
+		nacute
+	</note>
+	<outline>
+		<contour>
+			<point x="284" y="558" type="line"/>
+			<point x="377" y="684" type="line"/>
+			<point x="330" y="714" type="line"/>
+			<point x="249" y="580" type="line"/>
+		</contour>
+		<component base="n"/>
+	</outline>
 </glyph>

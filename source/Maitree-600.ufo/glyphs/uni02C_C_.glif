@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02CC" format="1">
-  <advance width="188"/>
-  <unicode hex="02CC"/>
-  <note>
-	uni02CC
-  </note>
-  <outline>
-    <contour>
-      <point x="143" y="-162" type="line"/>
-      <point x="143" y="0" type="line"/>
-      <point x="46" y="0" type="line"/>
-      <point x="46" y="-162" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni02CC" format="2">
+	<advance width="188"/>
+	<unicode hex="02CC"/>
+	<note>
+		uni02CC
+	</note>
+	<outline>
+		<contour>
+			<point x="46" y="-162" type="line"/>
+			<point x="143" y="-162" type="line"/>
+			<point x="143" y="0" type="line"/>
+			<point x="46" y="0" type="line"/>
+		</contour>
+	</outline>
 </glyph>

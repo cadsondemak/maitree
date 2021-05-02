@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ccaron" format="1">
-  <advance width="498"/>
-  <unicode hex="010D"/>
-  <note>
-	ccaron
-  </note>
-  <outline>
-    <contour>
-      <point x="295" y="561" type="line"/>
-      <point x="413" y="714" type="line"/>
-      <point x="361" y="760" type="line"/>
-      <point x="266" y="653" type="line"/>
-      <point x="171" y="760" type="line"/>
-      <point x="119" y="714" type="line"/>
-      <point x="238" y="561" type="line"/>
-    </contour>
-    <component base="c"/>
-  </outline>
+<glyph name="ccaron" format="2">
+	<advance width="498"/>
+	<unicode hex="010D"/>
+	<note>
+		ccaron
+	</note>
+	<outline>
+		<contour>
+			<point x="238" y="561" type="line"/>
+			<point x="295" y="561" type="line"/>
+			<point x="413" y="714" type="line"/>
+			<point x="361" y="760" type="line"/>
+			<point x="266" y="653" type="line"/>
+			<point x="171" y="760" type="line"/>
+			<point x="119" y="714" type="line"/>
+		</contour>
+		<component base="c"/>
+	</outline>
 </glyph>

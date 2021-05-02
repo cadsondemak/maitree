@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Icaron" format="1">
-  <advance width="361"/>
-  <unicode hex="01CF"/>
-  <note>
-	Icaron
-  </note>
-  <outline>
-    <contour>
-      <point x="208" y="753" type="line"/>
-      <point x="326" y="906" type="line"/>
-      <point x="274" y="952" type="line"/>
-      <point x="179" y="845" type="line"/>
-      <point x="84" y="952" type="line"/>
-      <point x="32" y="906" type="line"/>
-      <point x="151" y="753" type="line"/>
-    </contour>
-    <component base="I" xOffset="-9"/>
-  </outline>
+<glyph name="Icaron" format="2">
+	<advance width="361"/>
+	<unicode hex="01CF"/>
+	<note>
+		Icaron
+	</note>
+	<outline>
+		<contour>
+			<point x="151" y="753" type="line"/>
+			<point x="208" y="753" type="line"/>
+			<point x="326" y="906" type="line"/>
+			<point x="274" y="952" type="line"/>
+			<point x="179" y="845" type="line"/>
+			<point x="84" y="952" type="line"/>
+			<point x="32" y="906" type="line"/>
+		</contour>
+		<component base="I" xOffset="-9"/>
+	</outline>
 </glyph>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Acircumflexgrave" format="1">
-  <advance width="711"/>
-  <unicode hex="1EA6"/>
-  <note>
-	Acircumflexgrave
-  </note>
-  <outline>
-    <contour>
-      <point x="350" y="850" type="line"/>
-      <point x="441" y="751" type="line"/>
-      <point x="478" y="781" type="line"/>
-      <point x="371" y="917" type="line"/>
-      <point x="329" y="917" type="line"/>
-      <point x="222" y="781" type="line"/>
-      <point x="259" y="751" type="line"/>
-    </contour>
-    <contour>
-      <point x="256" y="876" type="line"/>
-      <point x="194" y="985" type="line"/>
-      <point x="139" y="950" type="line"/>
-      <point x="219" y="851" type="line"/>
-    </contour>
-    <component base="A"/>
-  </outline>
+<glyph name="Acircumflexgrave" format="2">
+	<advance width="711"/>
+	<unicode hex="1EA6"/>
+	<note>
+		Acircumflexgrave
+	</note>
+	<outline>
+		<contour>
+			<point x="259" y="751" type="line"/>
+			<point x="350" y="850" type="line"/>
+			<point x="441" y="751" type="line"/>
+			<point x="478" y="781" type="line"/>
+			<point x="371" y="917" type="line"/>
+			<point x="329" y="917" type="line"/>
+			<point x="222" y="781" type="line"/>
+		</contour>
+		<contour>
+			<point x="219" y="851" type="line"/>
+			<point x="256" y="876" type="line"/>
+			<point x="194" y="985" type="line"/>
+			<point x="139" y="950" type="line"/>
+		</contour>
+		<component base="A"/>
+	</outline>
 </glyph>

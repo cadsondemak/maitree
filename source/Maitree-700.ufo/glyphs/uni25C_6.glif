@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni25C6" format="1">
-  <advance width="616"/>
-  <unicode hex="25C6"/>
-  <note>
-	uni25C6
-  </note>
-  <outline>
-    <contour>
-      <point x="569" y="273" type="line"/>
-      <point x="308" y="556" type="line"/>
-      <point x="47" y="273" type="line"/>
-      <point x="308" y="-10" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni25C6" format="2">
+	<advance width="616"/>
+	<unicode hex="25C6"/>
+	<note>
+		uni25C6
+	</note>
+	<outline>
+		<contour>
+			<point x="308" y="-10" type="line"/>
+			<point x="569" y="273" type="line"/>
+			<point x="308" y="556" type="line"/>
+			<point x="47" y="273" type="line"/>
+		</contour>
+	</outline>
 </glyph>

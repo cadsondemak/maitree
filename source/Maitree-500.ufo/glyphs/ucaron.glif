@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ucaron" format="1">
-  <advance width="612"/>
-  <unicode hex="01D4"/>
-  <note>
-	ucaron
-  </note>
-  <outline>
-    <contour>
-      <point x="310" y="560" type="line"/>
-      <point x="422" y="703" type="line"/>
-      <point x="378" y="740" type="line"/>
-      <point x="285" y="638" type="line"/>
-      <point x="193" y="740" type="line"/>
-      <point x="149" y="703" type="line"/>
-      <point x="261" y="560" type="line"/>
-    </contour>
-    <component base="u"/>
-  </outline>
+<glyph name="ucaron" format="2">
+	<advance width="612"/>
+	<unicode hex="01D4"/>
+	<note>
+		ucaron
+	</note>
+	<outline>
+		<contour>
+			<point x="261" y="560" type="line"/>
+			<point x="310" y="560" type="line"/>
+			<point x="422" y="703" type="line"/>
+			<point x="378" y="740" type="line"/>
+			<point x="285" y="638" type="line"/>
+			<point x="193" y="740" type="line"/>
+			<point x="149" y="703" type="line"/>
+		</contour>
+		<component base="u"/>
+	</outline>
 </glyph>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
@@ -10,11 +10,28 @@
 	<string>Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)</string>
 	<key>descender</key>
 	<integer>-250</integer>
-	<key>description</key>
-	<string>Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)</string>
 	<key>familyName</key>
 	<string>Maitree</string>
-	<key>license</key>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>x</key>
+			<integer>77</integer>
+			<key>y</key>
+			<integer>293</integer>
+		</dict>
+	</array>
+	<key>openTypeHeadCreated</key>
+	<string>2021/05/03 03:20:51</string>
+	<key>openTypeNameDescription</key>
+	<string>Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)</string>
+	<key>openTypeNameDesigner</key>
+	<string>CadsonDemak Team</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>www.cadsondemak.com</string>
+	<key>openTypeNameLicense</key>
 	<string>Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -108,28 +125,22 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</string>
-	<key>licenseURL</key>
+	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
-	<key>openTypeHeadCreated</key>
-	<string>2015/07/30 17:34:37</string>
-	<key>openTypeNameDesigner</key>
-	<string>CadsonDemak Team</string>
-	<key>openTypeNameDesignerURL</key>
-	<string>www.cadsondemak.com</string>
 	<key>openTypeNameManufacturer</key>
 	<string>CadsonDemak</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>www.cadsondemak.com</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>Maitree</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Bold</string>
+	<key>openTypeOS2Type</key>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>750</integer>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-250</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>200</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>CDK</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>700</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -146,9 +157,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<integer>500</integer>
 		<integer>562</integer>
 		<integer>572</integer>
+		<integer>714</integer>
+		<integer>714</integer>
 		<integer>750</integer>
 		<integer>766</integer>
 	</array>
+	<key>postscriptFontName</key>
+	<string>Maitree-Bold</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-266</integer>
@@ -172,12 +187,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>Bold</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
-	<key>vendorID</key>
-	<string>CDK</string>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>10</integer>
 	<key>xHeight</key>
 	<integer>492</integer>
 </dict>

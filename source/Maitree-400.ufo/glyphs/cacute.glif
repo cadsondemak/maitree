@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cacute" format="1">
-  <advance width="484"/>
-  <unicode hex="0107"/>
-  <note>
-	cacute
-  </note>
-  <outline>
-    <contour>
-      <point x="350" y="695" type="line"/>
-      <point x="290" y="734" type="line"/>
-      <point x="203" y="588" type="line"/>
-      <point x="248" y="559" type="line"/>
-    </contour>
-    <component base="c"/>
-  </outline>
+<glyph name="cacute" format="2">
+	<advance width="484"/>
+	<unicode hex="0107"/>
+	<note>
+		cacute
+	</note>
+	<outline>
+		<contour>
+			<point x="248" y="559" type="line"/>
+			<point x="350" y="695" type="line"/>
+			<point x="290" y="734" type="line"/>
+			<point x="203" y="588" type="line"/>
+		</contour>
+		<component base="c"/>
+	</outline>
 </glyph>

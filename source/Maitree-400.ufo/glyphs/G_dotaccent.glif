@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Gdotaccent" format="1">
-  <advance width="718"/>
-  <unicode hex="0120"/>
-  <note>
-	Gdotaccent
-  </note>
-  <outline>
-    <contour>
-      <point x="395" y="768"/>
-      <point x="417" y="789"/>
-      <point x="417" y="817" type="curve" smooth="yes"/>
-      <point x="417" y="845"/>
-      <point x="395" y="866"/>
-      <point x="368" y="866" type="curve" smooth="yes"/>
-      <point x="341" y="866"/>
-      <point x="319" y="845"/>
-      <point x="319" y="817" type="curve" smooth="yes"/>
-      <point x="319" y="789"/>
-      <point x="341" y="768"/>
-      <point x="368" y="768" type="curve" smooth="yes"/>
-    </contour>
-    <component base="G"/>
-  </outline>
+<glyph name="Gdotaccent" format="2">
+	<advance width="718"/>
+	<unicode hex="0120"/>
+	<note>
+		Gdotaccent
+	</note>
+	<outline>
+		<contour>
+			<point x="368" y="768" type="curve" smooth="yes"/>
+			<point x="395" y="768"/>
+			<point x="417" y="789"/>
+			<point x="417" y="817" type="curve" smooth="yes"/>
+			<point x="417" y="845"/>
+			<point x="395" y="866"/>
+			<point x="368" y="866" type="curve" smooth="yes"/>
+			<point x="341" y="866"/>
+			<point x="319" y="845"/>
+			<point x="319" y="817" type="curve" smooth="yes"/>
+			<point x="319" y="789"/>
+			<point x="341" y="768"/>
+		</contour>
+		<component base="G"/>
+	</outline>
 </glyph>

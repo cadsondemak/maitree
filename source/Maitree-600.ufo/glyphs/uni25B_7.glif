@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni25B7" format="1">
-  <advance width="660"/>
-  <unicode hex="25B7"/>
-  <note>
-	uni25B7
-  </note>
-  <outline>
-    <contour>
-      <point x="630" y="293" type="line"/>
-      <point x="86" y="591" type="line"/>
-      <point x="86" y="-4" type="line"/>
-    </contour>
-    <contour>
-      <point x="182" y="422" type="line"/>
-      <point x="420" y="293" type="line"/>
-      <point x="182" y="165" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni25B7" format="2">
+	<advance width="660"/>
+	<unicode hex="25B7"/>
+	<note>
+		uni25B7
+	</note>
+	<outline>
+		<contour>
+			<point x="86" y="-4" type="line"/>
+			<point x="630" y="293" type="line"/>
+			<point x="86" y="591" type="line"/>
+		</contour>
+		<contour>
+			<point x="182" y="165" type="line"/>
+			<point x="182" y="422" type="line"/>
+			<point x="420" y="293" type="line"/>
+		</contour>
+	</outline>
 </glyph>

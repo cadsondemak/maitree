@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="guillemotleft" format="1">
-  <advance width="585"/>
-  <unicode hex="00AB"/>
-  <note>
-	guillemotleft
-  </note>
-  <outline>
-    <contour>
-      <point x="514" y="99" type="line"/>
-      <point x="411" y="237" type="line"/>
-      <point x="514" y="375" type="line"/>
-      <point x="443" y="431" type="line"/>
-      <point x="290" y="250" type="line"/>
-      <point x="290" y="224" type="line"/>
-      <point x="443" y="43" type="line"/>
-    </contour>
-    <contour>
-      <point x="285" y="99" type="line"/>
-      <point x="182" y="237" type="line"/>
-      <point x="285" y="375" type="line"/>
-      <point x="214" y="431" type="line"/>
-      <point x="61" y="250" type="line"/>
-      <point x="61" y="224" type="line"/>
-      <point x="214" y="43" type="line"/>
-    </contour>
-  </outline>
+<glyph name="guillemotleft" format="2">
+	<advance width="585"/>
+	<unicode hex="00AB"/>
+	<note>
+		guillemotleft
+	</note>
+	<outline>
+		<contour>
+			<point x="443" y="43" type="line"/>
+			<point x="514" y="99" type="line"/>
+			<point x="411" y="237" type="line"/>
+			<point x="514" y="375" type="line"/>
+			<point x="443" y="431" type="line"/>
+			<point x="290" y="250" type="line"/>
+			<point x="290" y="224" type="line"/>
+		</contour>
+		<contour>
+			<point x="214" y="43" type="line"/>
+			<point x="285" y="99" type="line"/>
+			<point x="182" y="237" type="line"/>
+			<point x="285" y="375" type="line"/>
+			<point x="214" y="431" type="line"/>
+			<point x="61" y="250" type="line"/>
+			<point x="61" y="224" type="line"/>
+		</contour>
+	</outline>
 </glyph>

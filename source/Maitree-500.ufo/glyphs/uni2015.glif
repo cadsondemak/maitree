@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2015" format="1">
-  <advance width="977"/>
-  <unicode hex="2015"/>
-  <note>
-	uni2015
-  </note>
-  <outline>
-    <contour>
-      <point x="947" y="269" type="line"/>
-      <point x="947" y="347" type="line"/>
-      <point x="30" y="347" type="line"/>
-      <point x="30" y="269" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni2015" format="2">
+	<advance width="977"/>
+	<unicode hex="2015"/>
+	<note>
+		uni2015
+	</note>
+	<outline>
+		<contour>
+			<point x="30" y="269" type="line"/>
+			<point x="947" y="269" type="line"/>
+			<point x="947" y="347" type="line"/>
+			<point x="30" y="347" type="line"/>
+		</contour>
+	</outline>
 </glyph>

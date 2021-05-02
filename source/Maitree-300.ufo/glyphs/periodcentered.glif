@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="periodcentered" format="1">
-  <advance width="279"/>
-  <unicode hex="00B7"/>
-  <note>
-	periodcentered
-  </note>
-  <outline>
-    <contour>
-      <point x="168" y="288"/>
-      <point x="191" y="309"/>
-      <point x="191" y="341" type="curve" smooth="yes"/>
-      <point x="191" y="372"/>
-      <point x="168" y="393"/>
-      <point x="140" y="393" type="curve" smooth="yes"/>
-      <point x="111" y="393"/>
-      <point x="88" y="372"/>
-      <point x="88" y="341" type="curve" smooth="yes"/>
-      <point x="88" y="309"/>
-      <point x="111" y="288"/>
-      <point x="140" y="288" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+<glyph name="periodcentered" format="2">
+	<advance width="279"/>
+	<unicode hex="00B7"/>
+	<note>
+		periodcentered
+	</note>
+	<outline>
+		<contour>
+			<point x="140" y="288" type="curve" smooth="yes"/>
+			<point x="168" y="288"/>
+			<point x="191" y="309"/>
+			<point x="191" y="341" type="curve" smooth="yes"/>
+			<point x="191" y="372"/>
+			<point x="168" y="393"/>
+			<point x="140" y="393" type="curve" smooth="yes"/>
+			<point x="111" y="393"/>
+			<point x="88" y="372"/>
+			<point x="88" y="341" type="curve" smooth="yes"/>
+			<point x="88" y="309"/>
+			<point x="111" y="288"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="igrave" format="1">
-  <advance width="308"/>
-  <unicode hex="00EC"/>
-  <note>
-	igrave
-  </note>
-  <outline>
-    <contour>
-      <point x="210" y="596" type="line"/>
-      <point x="116" y="753" type="line"/>
-      <point x="43" y="706" type="line"/>
-      <point x="155" y="560" type="line"/>
-    </contour>
-    <component base="dotlessi" xOffset="-8"/>
-  </outline>
+<glyph name="igrave" format="2">
+	<advance width="308"/>
+	<unicode hex="00EC"/>
+	<note>
+		igrave
+	</note>
+	<outline>
+		<contour>
+			<point x="155" y="560" type="line"/>
+			<point x="210" y="596" type="line"/>
+			<point x="116" y="753" type="line"/>
+			<point x="43" y="706" type="line"/>
+		</contour>
+		<component base="dotlessi" xOffset="-8"/>
+	</outline>
 </glyph>

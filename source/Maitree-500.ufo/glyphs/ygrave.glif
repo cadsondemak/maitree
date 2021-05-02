@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ygrave" format="1">
-  <advance width="564"/>
-  <unicode hex="1EF3"/>
-  <note>
-	ygrave
-  </note>
-  <outline>
-    <contour>
-      <point x="329" y="596" type="line"/>
-      <point x="235" y="753" type="line"/>
-      <point x="162" y="706" type="line"/>
-      <point x="274" y="560" type="line"/>
-    </contour>
-    <component base="y"/>
-  </outline>
+<glyph name="ygrave" format="2">
+	<advance width="564"/>
+	<unicode hex="1EF3"/>
+	<note>
+		ygrave
+	</note>
+	<outline>
+		<contour>
+			<point x="274" y="560" type="line"/>
+			<point x="329" y="596" type="line"/>
+			<point x="235" y="753" type="line"/>
+			<point x="162" y="706" type="line"/>
+		</contour>
+		<component base="y"/>
+	</outline>
 </glyph>

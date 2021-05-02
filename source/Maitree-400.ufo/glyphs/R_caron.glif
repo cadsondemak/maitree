@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Rcaron" format="1">
-  <advance width="668"/>
-  <unicode hex="0158"/>
-  <note>
-	Rcaron
-  </note>
-  <outline>
-    <contour>
-      <point x="331" y="751" type="line"/>
-      <point x="438" y="887" type="line"/>
-      <point x="401" y="917" type="line"/>
-      <point x="310" y="818" type="line"/>
-      <point x="219" y="917" type="line"/>
-      <point x="182" y="887" type="line"/>
-      <point x="289" y="751" type="line"/>
-    </contour>
-    <component base="R"/>
-  </outline>
+<glyph name="Rcaron" format="2">
+	<advance width="668"/>
+	<unicode hex="0158"/>
+	<note>
+		Rcaron
+	</note>
+	<outline>
+		<contour>
+			<point x="289" y="751" type="line"/>
+			<point x="331" y="751" type="line"/>
+			<point x="438" y="887" type="line"/>
+			<point x="401" y="917" type="line"/>
+			<point x="310" y="818" type="line"/>
+			<point x="219" y="917" type="line"/>
+			<point x="182" y="887" type="line"/>
+		</contour>
+		<component base="R"/>
+	</outline>
 </glyph>

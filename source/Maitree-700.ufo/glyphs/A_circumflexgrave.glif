@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Acircumflexgrave" format="1">
-  <advance width="771"/>
-  <unicode hex="1EA6"/>
-  <note>
-	Acircumflexgrave
-  </note>
-  <outline>
-    <contour>
-      <point x="267" y="0" type="line" smooth="yes"/>
-      <point x="278" y="0"/>
-      <point x="284" y="7"/>
-      <point x="284" y="22" type="curve" smooth="yes"/>
-      <point x="284" y="41"/>
-      <point x="273" y="51"/>
-      <point x="237" y="64" type="curve" smooth="yes"/>
-      <point x="183" y="84" type="line"/>
-      <point x="226" y="199" type="line"/>
-      <point x="500" y="199" type="line"/>
-      <point x="545" y="85" type="line"/>
-      <point x="518" y="85" type="line" smooth="yes"/>
-      <point x="479" y="85"/>
-      <point x="452" y="69"/>
-      <point x="452" y="35" type="curve" smooth="yes"/>
-      <point x="452" y="13"/>
-      <point x="462" y="0"/>
-      <point x="481" y="0" type="curve" smooth="yes"/>
-      <point x="757" y="0" type="line" smooth="yes"/>
-      <point x="770" y="0"/>
-      <point x="774" y="11"/>
-      <point x="774" y="26" type="curve" smooth="yes"/>
-      <point x="774" y="47"/>
-      <point x="761" y="57"/>
-      <point x="730" y="70" type="curve" smooth="yes"/>
-      <point x="696" y="84" type="line"/>
-      <point x="464" y="695" type="line"/>
-      <point x="303" y="695" type="line"/>
-      <point x="73" y="85" type="line"/>
-      <point x="63" y="85" type="line" smooth="yes"/>
-      <point x="24" y="85"/>
-      <point x="-3" y="69"/>
-      <point x="-3" y="35" type="curve" smooth="yes"/>
-      <point x="-3" y="13"/>
-      <point x="7" y="0"/>
-      <point x="26" y="0" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="364" y="570" type="line"/>
-      <point x="466" y="293" type="line"/>
-      <point x="261" y="293" type="line"/>
-    </contour>
-    <contour>
-      <point x="268" y="927" type="line"/>
-      <point x="198" y="1056" type="line"/>
-      <point x="106" y="995" type="line"/>
-      <point x="208" y="885" type="line"/>
-    </contour>
-    <contour>
-      <point x="380" y="865" type="line"/>
-      <point x="477" y="754" type="line"/>
-      <point x="538" y="808" type="line"/>
-      <point x="413" y="971" type="line"/>
-      <point x="347" y="971" type="line"/>
-      <point x="222" y="808" type="line"/>
-      <point x="283" y="754" type="line"/>
-    </contour>
-  </outline>
+<glyph name="Acircumflexgrave" format="2">
+	<advance width="771"/>
+	<unicode hex="1EA6"/>
+	<note>
+		Acircumflexgrave
+	</note>
+	<outline>
+		<contour>
+			<point x="26" y="0" type="curve" smooth="yes"/>
+			<point x="267" y="0" type="line" smooth="yes"/>
+			<point x="278" y="0"/>
+			<point x="284" y="7"/>
+			<point x="284" y="22" type="curve" smooth="yes"/>
+			<point x="284" y="41"/>
+			<point x="273" y="51"/>
+			<point x="237" y="64" type="curve" smooth="yes"/>
+			<point x="183" y="84" type="line"/>
+			<point x="226" y="199" type="line"/>
+			<point x="500" y="199" type="line"/>
+			<point x="545" y="85" type="line"/>
+			<point x="518" y="85" type="line" smooth="yes"/>
+			<point x="479" y="85"/>
+			<point x="452" y="69"/>
+			<point x="452" y="35" type="curve" smooth="yes"/>
+			<point x="452" y="13"/>
+			<point x="462" y="0"/>
+			<point x="481" y="0" type="curve" smooth="yes"/>
+			<point x="757" y="0" type="line" smooth="yes"/>
+			<point x="770" y="0"/>
+			<point x="774" y="11"/>
+			<point x="774" y="26" type="curve" smooth="yes"/>
+			<point x="774" y="47"/>
+			<point x="761" y="57"/>
+			<point x="730" y="70" type="curve" smooth="yes"/>
+			<point x="696" y="84" type="line"/>
+			<point x="464" y="695" type="line"/>
+			<point x="303" y="695" type="line"/>
+			<point x="73" y="85" type="line"/>
+			<point x="63" y="85" type="line" smooth="yes"/>
+			<point x="24" y="85"/>
+			<point x="-3" y="69"/>
+			<point x="-3" y="35" type="curve" smooth="yes"/>
+			<point x="-3" y="13"/>
+			<point x="7" y="0"/>
+		</contour>
+		<contour>
+			<point x="261" y="293" type="line"/>
+			<point x="364" y="570" type="line"/>
+			<point x="466" y="293" type="line"/>
+		</contour>
+		<contour>
+			<point x="208" y="885" type="line"/>
+			<point x="268" y="927" type="line"/>
+			<point x="198" y="1056" type="line"/>
+			<point x="106" y="995" type="line"/>
+		</contour>
+		<contour>
+			<point x="283" y="754" type="line"/>
+			<point x="380" y="865" type="line"/>
+			<point x="477" y="754" type="line"/>
+			<point x="538" y="808" type="line"/>
+			<point x="413" y="971" type="line"/>
+			<point x="347" y="971" type="line"/>
+			<point x="222" y="808" type="line"/>
+		</contour>
+	</outline>
 </glyph>

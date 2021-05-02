@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ebreve" format="1">
-  <advance width="696"/>
-  <unicode hex="0114"/>
-  <note>
-	Ebreve
-  </note>
-  <outline>
-    <contour>
-      <point x="416" y="747"/>
-      <point x="478" y="782"/>
-      <point x="504" y="874" type="curve"/>
-      <point x="449" y="893" type="line"/>
-      <point x="434" y="844"/>
-      <point x="399" y="813"/>
-      <point x="349" y="813" type="curve" smooth="yes"/>
-      <point x="300" y="813"/>
-      <point x="265" y="844"/>
-      <point x="249" y="893" type="curve"/>
-      <point x="195" y="874" type="line"/>
-      <point x="221" y="782"/>
-      <point x="283" y="747"/>
-      <point x="349" y="747" type="curve" smooth="yes"/>
-    </contour>
-    <component base="E"/>
-  </outline>
+<glyph name="Ebreve" format="2">
+	<advance width="696"/>
+	<unicode hex="0114"/>
+	<note>
+		Ebreve
+	</note>
+	<outline>
+		<contour>
+			<point x="349" y="747" type="curve" smooth="yes"/>
+			<point x="416" y="747"/>
+			<point x="478" y="782"/>
+			<point x="504" y="874" type="curve"/>
+			<point x="449" y="893" type="line"/>
+			<point x="434" y="844"/>
+			<point x="399" y="813"/>
+			<point x="349" y="813" type="curve" smooth="yes"/>
+			<point x="300" y="813"/>
+			<point x="265" y="844"/>
+			<point x="249" y="893" type="curve"/>
+			<point x="195" y="874" type="line"/>
+			<point x="221" y="782"/>
+			<point x="283" y="747"/>
+		</contour>
+		<component base="E"/>
+	</outline>
 </glyph>

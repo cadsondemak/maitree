@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexacute" format="1">
-  <advance width="0"/>
-  <note>
-	circumflexacute
-  </note>
-  <outline>
-    <contour>
-      <point x="-298" y="625" type="line"/>
-      <point x="-211" y="534" type="line"/>
-      <point x="-190" y="548" type="line"/>
-      <point x="-285" y="666" type="line"/>
-      <point x="-311" y="666" type="line"/>
-      <point x="-406" y="548" type="line"/>
-      <point x="-385" y="534" type="line"/>
-    </contour>
-    <contour>
-      <point x="-128" y="705" type="line"/>
-      <point x="-158" y="723" type="line"/>
-      <point x="-216" y="627" type="line"/>
-      <point x="-194" y="614" type="line"/>
-    </contour>
-  </outline>
+<glyph name="circumflexacute" format="2">
+	<advance width="0"/>
+	<note>
+		circumflexacute
+	</note>
+	<outline>
+		<contour>
+			<point x="-385" y="534" type="line"/>
+			<point x="-298" y="625" type="line"/>
+			<point x="-211" y="534" type="line"/>
+			<point x="-190" y="548" type="line"/>
+			<point x="-285" y="666" type="line"/>
+			<point x="-311" y="666" type="line"/>
+			<point x="-406" y="548" type="line"/>
+		</contour>
+		<contour>
+			<point x="-194" y="614" type="line"/>
+			<point x="-128" y="705" type="line"/>
+			<point x="-158" y="723" type="line"/>
+			<point x="-216" y="627" type="line"/>
+		</contour>
+	</outline>
 </glyph>

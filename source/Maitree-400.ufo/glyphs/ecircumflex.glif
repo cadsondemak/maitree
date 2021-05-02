@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ecircumflex" format="1">
-  <advance width="519"/>
-  <unicode hex="00EA"/>
-  <note>
-	ecircumflex
-  </note>
-  <outline>
-    <contour>
-      <point x="266" y="658" type="line"/>
-      <point x="357" y="559" type="line"/>
-      <point x="394" y="589" type="line"/>
-      <point x="287" y="725" type="line"/>
-      <point x="245" y="725" type="line"/>
-      <point x="138" y="589" type="line"/>
-      <point x="175" y="559" type="line"/>
-    </contour>
-    <component base="e"/>
-  </outline>
+<glyph name="ecircumflex" format="2">
+	<advance width="519"/>
+	<unicode hex="00EA"/>
+	<note>
+		ecircumflex
+	</note>
+	<outline>
+		<contour>
+			<point x="175" y="559" type="line"/>
+			<point x="266" y="658" type="line"/>
+			<point x="357" y="559" type="line"/>
+			<point x="394" y="589" type="line"/>
+			<point x="287" y="725" type="line"/>
+			<point x="245" y="725" type="line"/>
+			<point x="138" y="589" type="line"/>
+		</contour>
+		<component base="e"/>
+	</outline>
 </glyph>

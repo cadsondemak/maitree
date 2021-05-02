@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutecomb" format="1">
-  <advance width="0"/>
-  <unicode hex="0301"/>
-  <note>
-	acutecomb
-  </note>
-  <outline>
-    <contour>
-      <point x="-176" y="683" type="line"/>
-      <point x="-249" y="730" type="line"/>
-      <point x="-343" y="573" type="line"/>
-      <point x="-288" y="537" type="line"/>
-    </contour>
-  </outline>
+<glyph name="acutecomb" format="2">
+	<advance width="0"/>
+	<unicode hex="0301"/>
+	<note>
+		acutecomb
+	</note>
+	<outline>
+		<contour>
+			<point x="-288" y="537" type="line"/>
+			<point x="-176" y="683" type="line"/>
+			<point x="-249" y="730" type="line"/>
+			<point x="-343" y="573" type="line"/>
+		</contour>
+	</outline>
 </glyph>

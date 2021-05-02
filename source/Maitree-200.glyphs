@@ -1,4 +1,5 @@
 {
+.appVersion = "1352";
 copyright = "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
 {
@@ -23,10 +24,11 @@ value = (
 );
 }
 );
-date = "2015-04-16 08:42:09 +0000";
+date = "2021-05-02 20:16:24 +0000";
 designer = "CadsonDemak Team";
 designerURL = www.cadsondemak.com;
-familyName = "Maitree";
+disablesNiceNames = 1;
+familyName = Maitree;
 featurePrefixes = (
 {
 automatic = 1;
@@ -41,7 +43,7 @@ code = "feature ccmp;\012feature locl;\012feature sups;\012feature frac;\012feat
 name = aalt;
 },
 {
-code = "lookup thai_decomb {\012\011script thai;\012\011sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012\011script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
+code = "lookup thai_decomb {\012	script thai;\012	sub saraAm-thai by nikhahit-thai saraAa-thai;\012} thai_decomb;\012\012lookup thai_comb {\012    script thai;\012sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;\012sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;\012sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;\012sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;\012\012\012} thai_comb;\012\012lookup thai_comb1 {\012	script thai;\012sub [yoYing-thai thoThan-thai doChada-thai toPatak-thai ru-thai lu-thai]' [saraU-thai saraUu-thai phinthu-thai] by [yoYing-thai.less thoThan-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short];\012sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];\012sub [nikhahit-thai nikhahit-thai.narrow maiHanaKat-thai maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub loChula-thai' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] by loChula-thai.short;\012sub [poPla-thai foFa-thai foFan-thai] [maiHanaKat-thai thanthakhat-thai nikhahit-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow thanthakhat-thai.narrow nikhahit-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012sub [poPla-thai foFa-thai foFan-thai] [nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai]' by [nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];\012sub [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small];\012sub [poPla-thai foFa-thai foFan-thai] [saraU-thai saraUu-thai phinthu-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai]' by [maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow];\012sub [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiHanaKat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai]' by [maiHanaKat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow];\012\012} thai_comb1;";
 name = ccmp;
 },
 {
@@ -101,11 +103,11 @@ value = 200;
 },
 {
 name = winAscent;
-value = "1150";
+value = 1150;
 },
 {
 name = winDescent;
-value = "-500";
+value = -500;
 }
 );
 descender = -250;
@@ -131,7 +133,6 @@ lastChange = "2015-07-21 17:02:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -202,7 +203,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -233,7 +233,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -269,7 +268,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -363,7 +361,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -465,7 +462,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -559,7 +555,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -671,7 +666,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -781,7 +775,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -864,7 +857,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -893,7 +885,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -980,7 +971,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1075,7 +1065,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1162,7 +1151,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1267,7 +1255,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1375,7 +1362,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1426,7 +1412,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1514,7 +1499,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1540,7 +1524,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1638,7 +1621,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1664,7 +1646,6 @@ lastChange = "2015-07-21 14:41:09 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1755,7 +1736,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1811,7 +1791,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1876,7 +1855,6 @@ name = A;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -1918,7 +1896,6 @@ lastChange = "2015-07-21 14:41:45 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2020,7 +1997,6 @@ lastChange = "2015-07-21 14:41:45 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2131,7 +2107,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2209,7 +2184,6 @@ lastChange = "2015-07-21 16:31:53 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2277,7 +2251,6 @@ name = C;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2308,7 +2281,6 @@ name = C;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2337,7 +2309,6 @@ lastChange = "2015-07-21 14:41:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2421,7 +2392,6 @@ name = C;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2455,7 +2425,6 @@ name = C;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2489,7 +2458,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2547,7 +2515,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2613,7 +2580,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2683,7 +2649,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2749,7 +2714,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2824,7 +2788,6 @@ lastChange = "2015-07-21 14:41:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2891,7 +2854,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -2972,7 +2934,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3003,7 +2964,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3044,7 +3004,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3078,7 +3037,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3107,7 +3065,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3204,7 +3161,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3309,7 +3265,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3406,7 +3361,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3521,7 +3475,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3639,7 +3592,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3695,7 +3647,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3734,7 +3685,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3773,7 +3723,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3804,7 +3753,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3853,7 +3801,6 @@ name = E;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3879,7 +3826,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -3975,7 +3921,6 @@ lastChange = "2015-07-21 14:41:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4076,7 +4021,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4148,7 +4092,6 @@ lastChange = "2015-07-21 16:32:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4219,7 +4162,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4309,7 +4251,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4392,7 +4333,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4475,7 +4415,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4566,7 +4505,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4654,7 +4592,6 @@ lastChange = "2015-07-21 14:41:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4734,7 +4671,6 @@ lastChange = "2015-07-21 17:49:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4822,7 +4758,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -4927,7 +4862,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5034,7 +4968,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5134,7 +5067,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5239,7 +5171,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5291,7 +5222,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5377,7 +5307,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5438,7 +5367,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5509,7 +5437,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5573,7 +5500,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5637,7 +5563,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5723,7 +5648,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5792,7 +5716,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5861,7 +5784,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -5922,7 +5844,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6001,7 +5922,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6062,7 +5982,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6134,7 +6053,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6211,7 +6129,6 @@ lastChange = "2015-07-21 17:51:58 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6260,7 +6177,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6321,7 +6237,6 @@ lastChange = "2015-07-21 14:42:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6407,7 +6322,6 @@ lastChange = "2015-07-21 14:42:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6513,7 +6427,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6569,7 +6482,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6634,7 +6546,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6710,7 +6621,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6786,7 +6696,6 @@ lastChange = "2015-11-21 07:34:35 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6859,7 +6768,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -6932,7 +6840,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7014,7 +6921,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7079,7 +6985,6 @@ lastChange = "2015-07-21 14:42:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7143,7 +7048,6 @@ lastChange = "2015-07-21 18:00:28 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7241,7 +7145,6 @@ lastChange = "2015-07-21 14:42:29 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7356,7 +7259,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7427,7 +7329,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7507,7 +7408,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7590,7 +7490,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7681,7 +7580,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7769,7 +7667,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7857,7 +7754,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -7935,7 +7831,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8015,7 +7910,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8111,7 +8005,6 @@ lastChange = "2015-07-21 16:31:27 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8162,7 +8055,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8222,7 +8114,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8292,7 +8183,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8355,7 +8245,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8418,7 +8307,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8490,7 +8378,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8570,7 +8457,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8642,7 +8528,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8728,11 +8613,10 @@ unicode = 1ED4;
 },
 {
 glyphname = Ocircumflextilde;
-lastChange = "2015-07-21 14:42:51 +0000";
+lastChange = "2021-05-02 20:06:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8771,45 +8655,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"413 747 OFFCURVE",
-"464 776 OFFCURVE",
-"485 851 CURVE",
-"458 861 LINE",
-"446 814 OFFCURVE",
-"413 775 OFFCURVE",
-"358 775 CURVE SMOOTH",
-"303 775 OFFCURVE",
-"270 814 OFFCURVE",
-"258 861 CURVE",
-"231 851 LINE",
-"252 776 OFFCURVE",
-"303 747 OFFCURVE",
-"358 747 CURVE SMOOTH"
+"359 840 LINE",
+"446 749 LINE",
+"467 763 LINE",
+"372 881 LINE",
+"346 881 LINE",
+"251 763 LINE",
+"272 749 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"417 906 OFFCURVE",
-"440 920 OFFCURVE",
-"457 935 CURVE",
-"446 958 LINE",
-"431 946 OFFCURVE",
-"414 936 OFFCURVE",
-"395 936 CURVE SMOOTH",
-"375 936 OFFCURVE",
-"346 960 OFFCURVE",
-"322 960 CURVE SMOOTH",
-"301 960 OFFCURVE",
-"278 946 OFFCURVE",
-"261 931 CURVE",
-"272 908 LINE",
-"287 920 OFFCURVE",
-"303 930 OFFCURVE",
-"322 930 CURVE SMOOTH",
-"348 930 OFFCURVE",
-"368 906 OFFCURVE",
-"396 906 CURVE SMOOTH"
+"418 912 OFFCURVE",
+"441 926 OFFCURVE",
+"458 941 CURVE",
+"447 964 LINE",
+"432 952 OFFCURVE",
+"415 942 OFFCURVE",
+"396 942 CURVE SMOOTH",
+"376 942 OFFCURVE",
+"347 966 OFFCURVE",
+"323 966 CURVE SMOOTH",
+"302 966 OFFCURVE",
+"279 952 OFFCURVE",
+"262 937 CURVE",
+"273 914 LINE",
+"288 926 OFFCURVE",
+"304 936 OFFCURVE",
+"323 936 CURVE SMOOTH",
+"349 936 OFFCURVE",
+"369 912 OFFCURVE",
+"397 912 CURVE SMOOTH"
 );
 }
 );
@@ -8827,7 +8704,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8912,7 +8788,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -8980,7 +8855,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9040,7 +8914,6 @@ lastChange = "2015-07-21 14:42:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9118,7 +8991,6 @@ lastChange = "2015-07-21 14:43:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9179,7 +9051,6 @@ lastChange = "2015-07-21 14:43:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9249,7 +9120,6 @@ lastChange = "2015-07-21 14:43:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9327,7 +9197,6 @@ lastChange = "2015-07-21 14:43:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9397,7 +9266,6 @@ lastChange = "2015-07-21 14:43:16 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9485,7 +9353,6 @@ lastChange = "2015-07-21 14:43:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9571,7 +9438,6 @@ lastChange = "2015-07-21 14:43:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9640,7 +9506,6 @@ lastChange = "2015-07-21 14:43:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9700,7 +9565,6 @@ lastChange = "2015-07-21 14:43:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9776,7 +9640,6 @@ lastChange = "2015-07-21 14:43:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9861,7 +9724,6 @@ lastChange = "2015-07-21 14:43:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -9937,7 +9799,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10026,7 +9887,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10092,7 +9952,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10175,7 +10034,6 @@ lastChange = "2015-07-21 16:31:37 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10242,7 +10100,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10320,7 +10177,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10407,7 +10263,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10497,7 +10352,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10595,7 +10449,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10690,7 +10543,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10794,7 +10646,6 @@ lastChange = "2015-07-21 14:44:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10881,7 +10732,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -10955,7 +10805,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11038,7 +10887,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11124,7 +10972,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11213,7 +11060,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11299,7 +11145,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11393,7 +11238,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11484,7 +11328,6 @@ lastChange = "2015-07-21 14:44:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11575,7 +11418,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11648,7 +11490,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11714,7 +11555,6 @@ lastChange = "2015-07-21 18:12:34 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11772,7 +11612,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11838,7 +11677,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11908,7 +11746,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -11982,7 +11819,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12060,7 +11896,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12135,7 +11970,6 @@ lastChange = "2015-07-21 14:44:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12202,7 +12036,6 @@ lastChange = "2015-07-21 18:13:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12270,7 +12103,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12347,7 +12179,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12434,7 +12265,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12514,7 +12344,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12594,7 +12423,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12696,7 +12524,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12807,7 +12634,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -12921,7 +12747,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13032,7 +12857,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13143,7 +12967,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13228,7 +13051,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13305,7 +13127,6 @@ lastChange = "2015-07-21 14:44:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13400,7 +13221,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13476,7 +13296,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13561,7 +13380,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13654,7 +13472,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13739,7 +13556,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13842,7 +13658,6 @@ lastChange = "2015-07-21 14:45:05 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -13943,7 +13758,6 @@ lastChange = "2015-07-21 14:45:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14029,7 +13843,6 @@ lastChange = "2015-07-21 14:45:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14106,7 +13919,6 @@ lastChange = "2015-07-21 14:45:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14196,7 +14008,6 @@ lastChange = "2015-07-21 14:45:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14298,7 +14109,6 @@ lastChange = "2015-07-21 14:45:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14391,7 +14201,6 @@ lastChange = "2015-07-21 18:17:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14453,7 +14262,6 @@ lastChange = "2015-07-21 18:19:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14537,7 +14345,6 @@ lastChange = "2015-07-21 14:45:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14630,7 +14437,6 @@ lastChange = "2015-07-21 14:45:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14726,7 +14532,6 @@ lastChange = "2015-07-21 14:45:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14844,7 +14649,6 @@ lastChange = "2015-07-21 14:45:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -14937,7 +14741,6 @@ lastChange = "2015-07-21 18:20:45 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15025,7 +14828,6 @@ lastChange = "2015-07-21 18:30:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15098,7 +14900,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15180,7 +14981,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15265,7 +15065,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15372,7 +15171,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15462,7 +15260,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15552,7 +15349,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15634,7 +15430,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15734,7 +15529,6 @@ lastChange = "2015-07-21 14:50:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15832,7 +15626,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15876,7 +15669,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15929,7 +15721,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -15985,7 +15776,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16046,7 +15836,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16107,7 +15896,6 @@ lastChange = "2015-07-21 18:25:30 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16187,7 +15975,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16276,7 +16063,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16375,7 +16161,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16483,7 +16268,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16599,7 +16383,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16707,7 +16490,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16833,7 +16615,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -16957,7 +16738,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17049,7 +16829,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17141,7 +16920,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17242,7 +17020,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17351,7 +17128,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17452,7 +17228,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17571,7 +17346,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17688,7 +17462,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17802,7 +17575,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17899,7 +17671,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -17988,7 +17759,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18095,7 +17865,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18184,7 +17953,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18284,7 +18052,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18398,7 +18165,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18521,7 +18287,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18586,7 +18351,6 @@ lastChange = "2015-07-21 14:50:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18691,7 +18455,6 @@ lastChange = "2015-07-21 14:51:04 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18812,7 +18575,6 @@ lastChange = "2015-07-21 14:51:04 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -18942,7 +18704,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19003,7 +18764,6 @@ lastChange = "2015-07-21 18:25:34 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19066,7 +18826,6 @@ lastChange = "2015-07-21 14:51:13 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19138,7 +18897,6 @@ lastChange = "2015-07-21 14:51:13 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19213,7 +18971,6 @@ lastChange = "2015-07-21 14:51:13 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19291,7 +19048,6 @@ lastChange = "2015-07-21 14:51:13 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19366,7 +19122,6 @@ lastChange = "2015-07-21 14:51:13 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19446,7 +19201,6 @@ lastChange = "2015-07-21 18:19:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19518,7 +19272,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19592,7 +19345,6 @@ lastChange = "2015-07-21 14:51:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19684,7 +19436,6 @@ lastChange = "2015-07-21 14:51:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19764,7 +19515,6 @@ lastChange = "2015-07-21 14:51:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19853,7 +19603,6 @@ lastChange = "2015-07-21 14:51:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -19934,7 +19683,6 @@ lastChange = "2015-07-21 18:30:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20002,7 +19750,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20079,7 +19826,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20166,7 +19912,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20246,7 +19991,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20326,7 +20070,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20415,7 +20158,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20512,7 +20254,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20601,7 +20342,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20708,7 +20448,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20813,7 +20552,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -20915,7 +20653,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21000,7 +20737,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21085,7 +20821,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21162,7 +20897,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21257,7 +20991,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21334,7 +21067,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21424,7 +21156,6 @@ lastChange = "2015-07-21 14:52:18 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21517,7 +21248,6 @@ lastChange = "2015-07-21 18:26:28 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21592,7 +21322,6 @@ lastChange = "2015-07-21 18:26:54 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21668,7 +21397,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21763,7 +21491,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21851,7 +21578,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -21939,7 +21665,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22035,7 +21760,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22128,7 +21852,6 @@ lastChange = "2015-07-21 14:52:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22213,7 +21936,6 @@ lastChange = "2015-07-21 14:53:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22291,7 +22013,6 @@ lastChange = "2015-07-21 14:53:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22377,7 +22098,6 @@ lastChange = "2015-07-21 14:53:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22474,7 +22194,6 @@ lastChange = "2015-07-30 12:53:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22564,7 +22283,6 @@ lastChange = "2015-07-21 14:53:23 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22659,7 +22377,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22721,7 +22438,6 @@ lastChange = "2015-07-21 14:54:10 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22766,7 +22482,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22820,7 +22535,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22884,7 +22598,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22941,7 +22654,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -22998,7 +22710,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23077,7 +22788,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23156,7 +22866,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23210,7 +22919,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23282,7 +22990,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23388,7 +23095,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23442,7 +23148,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23524,7 +23229,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23594,7 +23298,6 @@ lastChange = "2015-07-21 18:14:30 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23653,7 +23356,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23695,7 +23397,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23749,7 +23450,6 @@ lastChange = "2015-07-21 16:48:45 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23826,7 +23526,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -23923,7 +23622,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24000,7 +23698,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24045,7 +23742,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24099,7 +23795,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24164,7 +23859,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24229,7 +23923,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24291,7 +23984,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24353,7 +24045,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24424,7 +24115,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24478,7 +24168,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24531,7 +24220,6 @@ lastChange = "2015-07-21 18:27:21 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24636,7 +24324,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24758,7 +24445,6 @@ lastChange = "2015-07-21 18:27:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24834,7 +24520,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -24919,7 +24604,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25015,7 +24699,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25103,7 +24786,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25199,7 +24881,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25292,7 +24973,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25385,7 +25065,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25453,7 +25132,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25538,7 +25216,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25639,7 +25316,6 @@ lastChange = "2015-07-21 18:30:57 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25690,7 +25366,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25750,7 +25425,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25820,7 +25494,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25883,7 +25556,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -25946,7 +25618,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26018,7 +25689,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26098,7 +25768,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26170,7 +25839,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26256,11 +25924,10 @@ unicode = 1ED5;
 },
 {
 glyphname = ocircumflextilde;
-lastChange = "2015-07-21 14:54:40 +0000";
+lastChange = "2021-05-02 20:06:32 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26299,45 +25966,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"318 550 OFFCURVE",
-"369 579 OFFCURVE",
-"390 654 CURVE",
-"363 664 LINE",
-"351 617 OFFCURVE",
-"318 578 OFFCURVE",
-"263 578 CURVE SMOOTH",
-"208 578 OFFCURVE",
-"175 617 OFFCURVE",
-"163 664 CURVE",
-"136 654 LINE",
-"157 579 OFFCURVE",
-"208 550 OFFCURVE",
-"263 550 CURVE SMOOTH"
+"263 648 LINE",
+"350 557 LINE",
+"371 571 LINE",
+"276 689 LINE",
+"250 689 LINE",
+"155 571 LINE",
+"176 557 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"322 709 OFFCURVE",
-"345 723 OFFCURVE",
-"362 738 CURVE",
-"351 761 LINE",
-"336 749 OFFCURVE",
-"319 739 OFFCURVE",
-"300 739 CURVE SMOOTH",
-"280 739 OFFCURVE",
-"251 763 OFFCURVE",
-"227 763 CURVE SMOOTH",
-"206 763 OFFCURVE",
-"183 749 OFFCURVE",
-"166 734 CURVE",
-"177 711 LINE",
-"192 723 OFFCURVE",
-"208 733 OFFCURVE",
-"227 733 CURVE SMOOTH",
-"253 733 OFFCURVE",
-"273 709 OFFCURVE",
-"301 709 CURVE SMOOTH"
+"322 720 OFFCURVE",
+"345 734 OFFCURVE",
+"362 749 CURVE",
+"351 772 LINE",
+"336 760 OFFCURVE",
+"319 750 OFFCURVE",
+"300 750 CURVE SMOOTH",
+"280 750 OFFCURVE",
+"251 774 OFFCURVE",
+"227 774 CURVE SMOOTH",
+"206 774 OFFCURVE",
+"183 760 OFFCURVE",
+"166 745 CURVE",
+"177 722 LINE",
+"192 734 OFFCURVE",
+"208 744 OFFCURVE",
+"227 744 CURVE SMOOTH",
+"253 744 OFFCURVE",
+"273 720 OFFCURVE",
+"301 720 CURVE SMOOTH"
 );
 }
 );
@@ -26355,7 +26015,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26440,7 +26099,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26508,7 +26166,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26568,7 +26225,6 @@ lastChange = "2015-07-21 14:54:40 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26646,7 +26302,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26707,7 +26362,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26777,7 +26431,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26855,7 +26508,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -26925,7 +26577,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27013,7 +26664,6 @@ lastChange = "2015-07-21 14:54:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27099,7 +26749,6 @@ lastChange = "2015-07-21 14:54:58 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27168,7 +26817,6 @@ lastChange = "2015-07-21 14:54:58 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27228,7 +26876,6 @@ lastChange = "2015-07-21 14:55:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27304,7 +26951,6 @@ lastChange = "2015-07-21 14:55:55 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27389,7 +27035,6 @@ lastChange = "2015-07-21 14:54:58 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27465,7 +27110,6 @@ lastChange = "2015-07-21 14:55:04 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27562,7 +27206,6 @@ lastChange = "2015-07-21 18:18:47 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27639,7 +27282,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27716,7 +27358,6 @@ lastChange = "2015-07-21 18:28:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27788,7 +27429,6 @@ lastChange = "2015-07-21 18:28:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27847,7 +27487,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27915,7 +27554,6 @@ lastChange = "2015-07-21 14:56:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -27986,7 +27624,6 @@ lastChange = "2015-07-21 14:56:31 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28065,7 +27702,6 @@ lastChange = "2015-07-21 14:56:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28141,7 +27777,6 @@ lastChange = "2015-07-21 14:56:53 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28226,7 +27861,6 @@ lastChange = "2015-07-21 14:57:17 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28294,7 +27928,6 @@ lastChange = "2015-07-21 18:28:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28368,7 +28001,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28451,7 +28083,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28537,7 +28168,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28626,7 +28256,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28712,7 +28341,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28806,7 +28434,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28897,7 +28524,6 @@ lastChange = "2015-07-21 14:57:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -28988,7 +28614,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29062,7 +28687,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29128,7 +28752,6 @@ lastChange = "2015-07-21 18:28:38 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29192,7 +28815,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29264,7 +28886,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29348,7 +28969,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29427,7 +29047,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29511,7 +29130,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29609,7 +29227,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29690,7 +29307,6 @@ lastChange = "2015-07-21 14:57:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29763,7 +29379,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29827,7 +29442,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29900,7 +29514,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -29983,7 +29596,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30059,7 +29671,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30135,7 +29746,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30233,7 +29843,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30340,7 +29949,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30450,7 +30058,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30557,7 +30164,6 @@ lastChange = "2015-07-21 14:57:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30664,7 +30270,6 @@ lastChange = "2015-07-21 14:57:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30745,7 +30350,6 @@ lastChange = "2015-07-21 14:57:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30818,7 +30422,6 @@ lastChange = "2015-07-21 14:57:50 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30909,7 +30512,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -30981,7 +30583,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31062,7 +30663,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31151,7 +30751,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31232,7 +30831,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31331,7 +30929,6 @@ lastChange = "2015-07-21 14:58:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31428,7 +31025,6 @@ lastChange = "2015-07-21 14:58:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31510,7 +31106,6 @@ lastChange = "2015-07-21 14:58:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31583,7 +31178,6 @@ lastChange = "2015-07-21 14:58:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31667,7 +31261,6 @@ lastChange = "2015-07-21 14:58:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31765,7 +31358,6 @@ lastChange = "2015-07-21 14:58:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31854,7 +31446,6 @@ lastChange = "2015-07-21 18:31:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -31916,7 +31507,6 @@ lastChange = "2015-07-21 18:29:29 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32000,7 +31590,6 @@ lastChange = "2015-07-21 14:58:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32093,7 +31682,6 @@ lastChange = "2015-07-21 14:58:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32189,7 +31777,6 @@ lastChange = "2015-07-21 14:58:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32307,7 +31894,6 @@ lastChange = "2015-07-21 14:58:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32400,7 +31986,6 @@ lastChange = "2015-07-21 18:29:41 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32475,7 +32060,6 @@ lastChange = "2015-07-21 18:29:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32551,7 +32135,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32636,7 +32219,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32724,7 +32306,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32839,7 +32420,6 @@ name = y;
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32873,7 +32453,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -32966,7 +32545,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33051,7 +32629,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33154,7 +32731,6 @@ lastChange = "2015-07-21 14:58:25 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33255,7 +32831,6 @@ lastChange = "2015-07-21 18:30:03 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33301,7 +32876,6 @@ lastChange = "2015-07-21 14:58:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33356,7 +32930,6 @@ lastChange = "2015-07-21 14:58:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33414,7 +32987,6 @@ lastChange = "2015-07-21 14:58:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33477,7 +33049,6 @@ lastChange = "2015-07-21 14:58:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33540,7 +33111,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33626,7 +33196,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33710,7 +33279,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33788,7 +33356,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33837,7 +33404,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33913,7 +33479,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -33979,7 +33544,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34023,7 +33587,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34095,7 +33658,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34193,7 +33755,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34291,7 +33852,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34389,7 +33949,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34486,7 +34045,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34584,7 +34142,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34681,7 +34238,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34824,7 +34380,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -34966,7 +34521,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35115,7 +34669,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35263,7 +34816,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35383,7 +34935,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35503,7 +35054,6 @@ lastChange = "2015-11-21 07:09:16 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35671,7 +35221,6 @@ lastChange = "2015-11-21 07:09:20 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35785,7 +35334,6 @@ lastChange = "2015-11-21 07:09:24 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35862,7 +35410,6 @@ lastChange = "2015-11-21 07:09:27 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -35945,7 +35492,6 @@ lastChange = "2015-11-21 07:09:32 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36040,7 +35586,6 @@ lastChange = "2015-11-21 07:09:35 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36141,7 +35686,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36224,7 +35768,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36322,7 +35865,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36423,7 +35965,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36510,7 +36051,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36611,7 +36151,6 @@ lastChange = "2015-07-21 10:29:11 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36702,7 +36241,6 @@ lastChange = "2015-07-21 10:29:11 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36818,7 +36356,6 @@ position = "{553, -52}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36929,7 +36466,6 @@ lastChange = "2015-11-21 07:09:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37041,7 +36577,6 @@ lastChange = "2015-11-21 07:09:52 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37201,7 +36736,6 @@ position = "{835, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37350,7 +36884,6 @@ lastChange = "2015-11-21 07:09:59 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37503,7 +37036,6 @@ lastChange = "2015-11-21 07:10:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37624,7 +37156,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37710,7 +37241,6 @@ position = "{342, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37795,7 +37325,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37885,7 +37414,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -37960,7 +37488,6 @@ lastChange = "2015-07-21 10:24:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38037,7 +37564,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38242,7 +37768,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38359,7 +37884,6 @@ position = "{542, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38485,7 +38009,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38574,7 +38097,6 @@ lastChange = "2015-07-21 10:30:01 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38681,7 +38203,6 @@ lastChange = "2015-11-21 07:10:42 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38768,7 +38289,6 @@ position = "{468, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38845,7 +38365,6 @@ lastChange = "2015-11-21 07:10:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -38961,7 +38480,6 @@ lastChange = "2015-11-21 07:10:51 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39054,7 +38572,6 @@ lastChange = "2015-11-21 07:10:54 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39147,7 +38664,6 @@ position = "{439, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39240,7 +38756,6 @@ position = "{522, 300}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39336,7 +38851,6 @@ lastChange = "2015-11-21 07:11:02 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39432,7 +38946,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39552,7 +39065,6 @@ lastChange = "2015-11-21 07:11:43 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39664,7 +39176,6 @@ lastChange = "2015-11-21 07:11:48 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39775,7 +39286,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39862,7 +39372,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -39967,7 +39476,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40016,7 +39524,6 @@ lastChange = "2015-07-21 14:05:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40099,7 +39606,6 @@ lastChange = "2015-07-21 10:19:46 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40148,7 +39654,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40269,7 +39774,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40329,7 +39833,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40434,7 +39937,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40514,7 +40016,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40616,7 +40117,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40701,7 +40201,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40775,7 +40274,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40824,7 +40322,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40870,7 +40367,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40923,7 +40419,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -40993,7 +40488,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41032,7 +40526,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41083,7 +40576,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41145,7 +40637,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41179,7 +40670,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41257,7 +40747,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41319,7 +40808,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41343,7 +40831,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41430,7 +40917,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41535,7 +41021,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41651,7 +41136,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41725,7 +41209,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41828,7 +41311,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -41941,7 +41423,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42083,7 +41564,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42206,7 +41686,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42312,7 +41791,6 @@ lastChange = "2015-11-23 06:29:47 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42361,7 +41839,6 @@ lastChange = "2015-11-23 06:29:52 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42402,7 +41879,6 @@ lastChange = "2015-11-23 06:29:59 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42454,7 +41930,6 @@ lastChange = "2015-11-23 06:30:04 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42524,7 +41999,6 @@ lastChange = "2015-11-23 06:30:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42563,7 +42037,6 @@ lastChange = "2015-11-23 06:30:12 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42614,7 +42087,6 @@ lastChange = "2015-11-23 06:30:15 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42676,7 +42148,6 @@ lastChange = "2015-11-23 06:30:19 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42710,7 +42181,6 @@ lastChange = "2015-11-23 06:30:22 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42788,7 +42258,6 @@ lastChange = "2015-11-23 06:30:26 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42850,7 +42319,6 @@ lastChange = "2015-11-23 06:30:29 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42899,7 +42367,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42940,7 +42407,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -42992,7 +42458,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43062,7 +42527,6 @@ lastChange = "2015-11-23 06:30:33 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43101,7 +42565,6 @@ lastChange = "2015-11-23 06:30:36 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43152,7 +42615,6 @@ lastChange = "2015-11-23 06:30:39 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43214,7 +42676,6 @@ lastChange = "2015-11-23 06:30:43 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43248,7 +42709,6 @@ lastChange = "2015-11-23 06:30:45 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43326,7 +42786,6 @@ lastChange = "2015-11-23 06:30:49 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43388,7 +42847,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43437,7 +42895,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43522,7 +42979,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43635,7 +43091,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43730,7 +43185,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43826,7 +43280,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -43951,7 +43404,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44036,7 +43488,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44148,7 +43599,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44247,7 +43697,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44352,7 +43801,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44390,7 +43838,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44414,7 +43861,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44446,7 +43892,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44478,7 +43923,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44527,7 +43971,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44562,7 +44005,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44628,7 +44070,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44669,7 +44110,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44710,7 +44150,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44767,7 +44206,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44799,7 +44237,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44871,7 +44308,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44943,7 +44379,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -44976,7 +44411,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45000,7 +44434,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45052,7 +44485,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45076,7 +44508,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45100,7 +44531,6 @@ lastChange = "2015-11-23 06:30:56 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45134,7 +44564,6 @@ lastChange = "2015-11-23 06:31:00 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45168,7 +44597,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45223,7 +44651,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45278,7 +44705,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45306,7 +44732,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45334,7 +44759,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45368,7 +44792,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45402,7 +44825,6 @@ lastChange = "2015-11-23 06:31:03 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45436,7 +44858,6 @@ lastChange = "2015-11-23 06:31:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45470,7 +44891,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45494,7 +44914,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45518,7 +44937,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45542,7 +44960,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45566,7 +44983,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45590,7 +45006,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45614,7 +45029,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45638,7 +45052,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45677,7 +45090,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45716,7 +45128,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45743,7 +45154,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45770,7 +45180,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45825,7 +45234,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45880,7 +45288,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45935,7 +45342,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -45970,7 +45376,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46005,7 +45410,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46040,7 +45444,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46127,7 +45530,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46210,7 +45612,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46319,7 +45720,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46412,7 +45812,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46489,7 +45888,6 @@ glyphname = space;
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 width = 300;
 }
 );
@@ -46502,7 +45900,6 @@ lastChange = "2015-07-16 05:45:58 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 width = 300;
 }
 );
@@ -46514,7 +45911,6 @@ glyphname = uni2007;
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 width = 0;
 }
 );
@@ -46526,7 +45922,6 @@ glyphname = CR;
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 width = 300;
 }
 );
@@ -46539,7 +45934,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46570,7 +45964,6 @@ glyphname = .null;
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 width = 500;
 }
 );
@@ -46583,7 +45976,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46659,7 +46051,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46745,7 +46136,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46812,7 +46202,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46918,7 +46307,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -46991,7 +46379,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47070,7 +46457,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47157,7 +46543,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47230,7 +46615,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47344,7 +46728,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47425,7 +46808,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47517,7 +46899,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47640,7 +47021,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47748,7 +47128,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47842,7 +47221,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47928,7 +47306,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -47976,7 +47353,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48042,7 +47418,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48120,7 +47495,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48207,7 +47581,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48241,7 +47614,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48307,7 +47679,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48384,7 +47755,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48430,7 +47800,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48488,7 +47857,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48521,7 +47889,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48548,7 +47915,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48584,7 +47950,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48662,7 +48027,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48710,7 +48074,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48737,7 +48100,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48773,7 +48135,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48799,7 +48160,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48823,7 +48183,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48879,7 +48238,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48911,7 +48269,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -48951,7 +48308,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49013,7 +48369,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49105,7 +48460,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49231,7 +48585,6 @@ lastChange = "2015-07-21 10:04:06 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49263,7 +48616,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49304,7 +48656,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49374,7 +48725,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49403,7 +48753,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49449,7 +48798,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49473,7 +48821,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49505,7 +48852,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49535,7 +48881,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49565,7 +48910,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49595,7 +48939,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49625,7 +48968,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49649,7 +48991,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49684,7 +49025,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49708,7 +49048,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49731,7 +49070,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49754,7 +49092,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49777,7 +49114,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49800,7 +49136,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49831,7 +49166,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49862,7 +49196,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49893,7 +49226,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49924,7 +49256,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49948,7 +49279,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -49981,7 +49311,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50069,7 +49398,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50174,7 +49502,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50230,7 +49557,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50325,7 +49651,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50435,7 +49760,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50535,7 +49859,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50642,7 +49965,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50760,7 +50082,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50809,7 +50130,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50883,7 +50203,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50946,7 +50265,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -50973,7 +50291,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51005,7 +50322,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51045,7 +50361,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51069,7 +50384,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51102,7 +50416,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51236,7 +50549,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51269,7 +50581,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51318,7 +50629,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51350,7 +50660,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51374,7 +50683,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51398,7 +50706,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51431,7 +50738,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51458,7 +50764,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51485,7 +50790,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51519,7 +50823,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51568,7 +50871,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51608,7 +50910,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51632,7 +50933,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51674,7 +50974,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51704,7 +51003,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51736,7 +51034,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51785,7 +51082,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51820,7 +51116,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51844,7 +51139,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51880,7 +51174,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51920,7 +51213,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51954,7 +51246,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -51978,7 +51269,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52013,7 +51303,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52048,7 +51337,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52082,7 +51370,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52116,7 +51403,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52140,7 +51426,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52164,7 +51449,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52188,7 +51472,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52212,7 +51495,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52236,7 +51518,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52260,7 +51541,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52294,7 +51574,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52321,7 +51600,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52357,7 +51635,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52384,7 +51661,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52433,7 +51709,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52465,7 +51740,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52489,7 +51763,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52522,7 +51795,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52546,7 +51818,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52586,7 +51857,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52635,7 +51905,6 @@ lastChange = "2015-07-21 10:04:07 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52685,7 +51954,6 @@ position = "{-90, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52763,7 +52031,6 @@ position = "{-317, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52840,7 +52107,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52884,7 +52150,6 @@ position = "{-90, 713}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -52927,7 +52192,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53012,7 +52276,6 @@ position = "{-90, 713}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53096,7 +52359,6 @@ position = "{-284, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53180,7 +52442,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53286,7 +52547,6 @@ position = "{-90, 713}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53391,7 +52651,6 @@ position = "{-284, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53496,7 +52755,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53558,7 +52816,6 @@ position = "{-90, 713}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53619,7 +52876,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53690,7 +52946,6 @@ position = "{-90, 713}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53760,7 +53015,6 @@ position = "{-284, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53830,7 +53084,6 @@ position = "{-90, 558}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -53919,7 +53172,6 @@ position = "{-194, 558}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54007,7 +53259,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54085,7 +53336,6 @@ position = "{-90, 492}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54142,7 +53392,6 @@ position = "{-194, 492}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54198,7 +53447,6 @@ position = "{-90, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54266,7 +53514,6 @@ position = "{-194, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54333,7 +53580,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54422,7 +53668,6 @@ position = "{-194, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54510,7 +53755,6 @@ position = "{-90, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54589,7 +53833,6 @@ position = "{-194, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54667,7 +53910,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54726,7 +53968,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54802,7 +54043,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -54919,7 +54159,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55057,7 +54296,6 @@ position = "{-90, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55151,7 +54389,6 @@ position = "{-90, -260}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55193,7 +54430,6 @@ position = "{-90, -440}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55234,7 +54470,6 @@ position = "{-90, -260}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55305,7 +54540,6 @@ position = "{-90, -440}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55375,7 +54609,6 @@ position = "{-90, -260}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55456,7 +54689,6 @@ position = "{-90, -440}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55536,7 +54768,6 @@ position = "{-284, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55579,7 +54810,6 @@ position = "{-310, 512}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55640,7 +54870,6 @@ position = "{-297, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55698,7 +54927,6 @@ position = "{-297, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55774,7 +55002,6 @@ position = "{-297, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -55891,7 +55118,6 @@ position = "{-297, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56029,7 +55255,6 @@ position = "{-297, 522}";
 }
 );
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56113,7 +55338,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56148,7 +55372,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56183,7 +55406,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56236,7 +55458,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56287,7 +55508,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56329,7 +55549,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56371,7 +55590,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56431,7 +55649,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56489,7 +55706,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56546,7 +55762,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56603,7 +55818,6 @@ lastChange = "2015-07-21 10:04:08 +0000";
 layers = (
 {
 layerId = "180D1874-17C2-44EB-BA68-42C2D2C9E124";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -56658,10 +55872,12 @@ width = 0;
 note = dieresiscaron;
 }
 );
-disablesNiceNames = 1;
 instances = (
 {
 interpolationWeight = 34;
+instanceInterpolations = {
+"180D1874-17C2-44EB-BA68-42C2D2C9E124" = 1;
+};
 name = ExtraLight;
 weightClass = ExtraLight;
 }
@@ -57631,5 +56847,5 @@ manufacturer = CadsonDemak;
 manufacturerURL = www.cadsondemak.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 10;
 }

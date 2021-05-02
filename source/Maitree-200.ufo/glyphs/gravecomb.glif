@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gravecomb" format="1">
-  <advance width="0"/>
-  <unicode hex="0300"/>
-  <note>
-	gravecomb
-  </note>
-  <outline>
-    <contour>
-      <point x="-217" y="547" type="line"/>
-      <point x="-289" y="665" type="line"/>
-      <point x="-319" y="647" type="line"/>
-      <point x="-239" y="534" type="line"/>
-    </contour>
-  </outline>
+<glyph name="gravecomb" format="2">
+	<advance width="0"/>
+	<unicode hex="0300"/>
+	<note>
+		gravecomb
+	</note>
+	<outline>
+		<contour>
+			<point x="-239" y="534" type="line"/>
+			<point x="-217" y="547" type="line"/>
+			<point x="-289" y="665" type="line"/>
+			<point x="-319" y="647" type="line"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ncaron" format="1">
-  <advance width="798"/>
-  <unicode hex="0147"/>
-  <note>
-	Ncaron
-  </note>
-  <outline>
-    <contour>
-      <point x="420" y="752" type="line"/>
-      <point x="532" y="895" type="line"/>
-      <point x="488" y="932" type="line"/>
-      <point x="395" y="830" type="line"/>
-      <point x="303" y="932" type="line"/>
-      <point x="259" y="895" type="line"/>
-      <point x="371" y="752" type="line"/>
-    </contour>
-    <component base="N"/>
-  </outline>
+<glyph name="Ncaron" format="2">
+	<advance width="798"/>
+	<unicode hex="0147"/>
+	<note>
+		Ncaron
+	</note>
+	<outline>
+		<contour>
+			<point x="371" y="752" type="line"/>
+			<point x="420" y="752" type="line"/>
+			<point x="532" y="895" type="line"/>
+			<point x="488" y="932" type="line"/>
+			<point x="395" y="830" type="line"/>
+			<point x="303" y="932" type="line"/>
+			<point x="259" y="895" type="line"/>
+		</contour>
+		<component base="N"/>
+	</outline>
 </glyph>

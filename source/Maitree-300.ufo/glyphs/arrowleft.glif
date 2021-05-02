@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arrowleft" format="1">
-  <advance width="954"/>
-  <unicode hex="2190"/>
-  <note>
-	arrowleft
-  </note>
-  <outline>
-    <contour>
-      <point x="285" y="231" type="line"/>
-      <point x="169" y="331" type="line"/>
-      <point x="845" y="331" type="line"/>
-      <point x="845" y="379" type="line"/>
-      <point x="169" y="379" type="line"/>
-      <point x="285" y="478" type="line"/>
-      <point x="221" y="478" type="line"/>
-      <point x="86" y="363" type="line"/>
-      <point x="86" y="347" type="line"/>
-      <point x="221" y="231" type="line"/>
-    </contour>
-  </outline>
+<glyph name="arrowleft" format="2">
+	<advance width="954"/>
+	<unicode hex="2190"/>
+	<note>
+		arrowleft
+	</note>
+	<outline>
+		<contour>
+			<point x="221" y="231" type="line"/>
+			<point x="285" y="231" type="line"/>
+			<point x="169" y="331" type="line"/>
+			<point x="845" y="331" type="line"/>
+			<point x="845" y="379" type="line"/>
+			<point x="169" y="379" type="line"/>
+			<point x="285" y="478" type="line"/>
+			<point x="221" y="478" type="line"/>
+			<point x="86" y="363" type="line"/>
+			<point x="86" y="347" type="line"/>
+		</contour>
+	</outline>
 </glyph>

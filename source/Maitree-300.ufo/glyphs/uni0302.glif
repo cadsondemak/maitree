@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0302" format="1">
-  <advance width="0"/>
-  <unicode hex="0302"/>
-  <note>
-	uni0302
-  </note>
-  <outline>
-    <contour>
-      <point x="-300" y="631" type="line"/>
-      <point x="-211" y="535" type="line"/>
-      <point x="-181" y="558" type="line"/>
-      <point x="-283" y="686" type="line"/>
-      <point x="-318" y="686" type="line"/>
-      <point x="-419" y="558" type="line"/>
-      <point x="-389" y="535" type="line"/>
-    </contour>
-  </outline>
+<glyph name="uni0302" format="2">
+	<advance width="0"/>
+	<unicode hex="0302"/>
+	<note>
+		uni0302
+	</note>
+	<outline>
+		<contour>
+			<point x="-389" y="535" type="line"/>
+			<point x="-300" y="631" type="line"/>
+			<point x="-211" y="535" type="line"/>
+			<point x="-181" y="558" type="line"/>
+			<point x="-283" y="686" type="line"/>
+			<point x="-318" y="686" type="line"/>
+			<point x="-419" y="558" type="line"/>
+		</contour>
+	</outline>
 </glyph>

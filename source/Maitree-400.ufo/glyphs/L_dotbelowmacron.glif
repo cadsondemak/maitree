@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ldotbelowmacron" format="1">
-  <advance width="601"/>
-  <unicode hex="1E38"/>
-  <note>
-	Ldotbelowmacron
-  </note>
-  <outline>
-    <contour>
-      <point x="317" y="778" type="line"/>
-      <point x="317" y="833" type="line"/>
-      <point x="35" y="833" type="line"/>
-      <point x="35" y="778" type="line"/>
-    </contour>
-    <contour>
-      <point x="369" y="-164"/>
-      <point x="391" y="-143"/>
-      <point x="391" y="-115" type="curve" smooth="yes"/>
-      <point x="391" y="-86"/>
-      <point x="369" y="-65"/>
-      <point x="342" y="-65" type="curve" smooth="yes"/>
-      <point x="315" y="-65"/>
-      <point x="293" y="-86"/>
-      <point x="293" y="-115" type="curve" smooth="yes"/>
-      <point x="293" y="-143"/>
-      <point x="315" y="-164"/>
-      <point x="342" y="-164" type="curve" smooth="yes"/>
-    </contour>
-    <component base="L"/>
-  </outline>
+<glyph name="Ldotbelowmacron" format="2">
+	<advance width="601"/>
+	<unicode hex="1E38"/>
+	<note>
+		Ldotbelowmacron
+	</note>
+	<outline>
+		<contour>
+			<point x="35" y="778" type="line"/>
+			<point x="317" y="778" type="line"/>
+			<point x="317" y="833" type="line"/>
+			<point x="35" y="833" type="line"/>
+		</contour>
+		<contour>
+			<point x="342" y="-164" type="curve" smooth="yes"/>
+			<point x="369" y="-164"/>
+			<point x="391" y="-143"/>
+			<point x="391" y="-115" type="curve" smooth="yes"/>
+			<point x="391" y="-86"/>
+			<point x="369" y="-65"/>
+			<point x="342" y="-65" type="curve" smooth="yes"/>
+			<point x="315" y="-65"/>
+			<point x="293" y="-86"/>
+			<point x="293" y="-115" type="curve" smooth="yes"/>
+			<point x="293" y="-143"/>
+			<point x="315" y="-164"/>
+		</contour>
+		<component base="L"/>
+	</outline>
 </glyph>

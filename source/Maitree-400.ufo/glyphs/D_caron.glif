@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Dcaron" format="1">
-  <advance width="737"/>
-  <unicode hex="010E"/>
-  <note>
-	Dcaron
-  </note>
-  <outline>
-    <contour>
-      <point x="368" y="751" type="line"/>
-      <point x="475" y="887" type="line"/>
-      <point x="438" y="917" type="line"/>
-      <point x="347" y="818" type="line"/>
-      <point x="256" y="917" type="line"/>
-      <point x="219" y="887" type="line"/>
-      <point x="326" y="751" type="line"/>
-    </contour>
-    <component base="D"/>
-  </outline>
+<glyph name="Dcaron" format="2">
+	<advance width="737"/>
+	<unicode hex="010E"/>
+	<note>
+		Dcaron
+	</note>
+	<outline>
+		<contour>
+			<point x="326" y="751" type="line"/>
+			<point x="368" y="751" type="line"/>
+			<point x="475" y="887" type="line"/>
+			<point x="438" y="917" type="line"/>
+			<point x="347" y="818" type="line"/>
+			<point x="256" y="917" type="line"/>
+			<point x="219" y="887" type="line"/>
+		</contour>
+		<component base="D"/>
+	</outline>
 </glyph>

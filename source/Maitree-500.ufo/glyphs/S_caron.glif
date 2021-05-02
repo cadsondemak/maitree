@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Scaron" format="1">
-  <advance width="596"/>
-  <unicode hex="0160"/>
-  <note>
-	Scaron
-  </note>
-  <outline>
-    <contour>
-      <point x="312" y="752" type="line"/>
-      <point x="424" y="895" type="line"/>
-      <point x="380" y="932" type="line"/>
-      <point x="287" y="830" type="line"/>
-      <point x="195" y="932" type="line"/>
-      <point x="151" y="895" type="line"/>
-      <point x="263" y="752" type="line"/>
-    </contour>
-    <component base="S"/>
-  </outline>
+<glyph name="Scaron" format="2">
+	<advance width="596"/>
+	<unicode hex="0160"/>
+	<note>
+		Scaron
+	</note>
+	<outline>
+		<contour>
+			<point x="263" y="752" type="line"/>
+			<point x="312" y="752" type="line"/>
+			<point x="424" y="895" type="line"/>
+			<point x="380" y="932" type="line"/>
+			<point x="287" y="830" type="line"/>
+			<point x="195" y="932" type="line"/>
+			<point x="151" y="895" type="line"/>
+		</contour>
+		<component base="S"/>
+	</outline>
 </glyph>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>.notdef</key>
@@ -660,10 +660,10 @@
 	<string>eight.glif</string>
 	<key>eight-thai</key>
 	<string>eight-thai.glif</string>
-	<key>eight.inferior</key>
-	<string>eight.inferior.glif</string>
-	<key>eight.superior</key>
-	<string>eight.superior.glif</string>
+	<key>eightinferior</key>
+	<string>eightinferior.glif</string>
+	<key>eightsuperior</key>
+	<string>eightsuperior.glif</string>
 	<key>ellipsis</key>
 	<string>ellipsis.glif</string>
 	<key>emacron</key>
@@ -700,12 +700,12 @@
 	<string>five.glif</string>
 	<key>five-thai</key>
 	<string>five-thai.glif</string>
-	<key>five.inferior</key>
-	<string>five.inferior.glif</string>
-	<key>five.superior</key>
-	<string>five.superior.glif</string>
 	<key>fiveeighths</key>
 	<string>fiveeighths.glif</string>
+	<key>fiveinferior</key>
+	<string>fiveinferior.glif</string>
+	<key>fivesuperior</key>
+	<string>fivesuperior.glif</string>
 	<key>fl</key>
 	<string>fl.glif</string>
 	<key>florin</key>
@@ -720,10 +720,10 @@
 	<string>four.glif</string>
 	<key>four-thai</key>
 	<string>four-thai.glif</string>
-	<key>four.inferior</key>
-	<string>four.inferior.glif</string>
-	<key>four.superior</key>
-	<string>four.superior.glif</string>
+	<key>fourinferior</key>
+	<string>fourinferior.glif</string>
+	<key>foursuperior</key>
+	<string>foursuperior.glif</string>
 	<key>fraction</key>
 	<string>fraction.glif</string>
 	<key>g</key>
@@ -946,14 +946,30 @@
 	<string>nikhahit-thai.glif</string>
 	<key>nikhahit-thai.narrow</key>
 	<string>nikhahit-thai.narrow.glif</string>
+	<key>nikhahit_maiChattawa-thai</key>
+	<string>nikhahit_maiC_hattawa-thai.glif</string>
+	<key>nikhahit_maiChattawa-thai.narrow</key>
+	<string>nikhahit_maiC_hattawa-thai.narrow.glif</string>
+	<key>nikhahit_maiEk-thai</key>
+	<string>nikhahit_maiE_k-thai.glif</string>
+	<key>nikhahit_maiEk-thai.narrow</key>
+	<string>nikhahit_maiE_k-thai.narrow.glif</string>
+	<key>nikhahit_maiTho-thai</key>
+	<string>nikhahit_maiT_ho-thai.glif</string>
+	<key>nikhahit_maiTho-thai.narrow</key>
+	<string>nikhahit_maiT_ho-thai.narrow.glif</string>
+	<key>nikhahit_maiTri-thai</key>
+	<string>nikhahit_maiT_ri-thai.glif</string>
+	<key>nikhahit_maiTri-thai.narrow</key>
+	<string>nikhahit_maiT_ri-thai.narrow.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
 	<key>nine-thai</key>
 	<string>nine-thai.glif</string>
-	<key>nine.inferior</key>
-	<string>nine.inferior.glif</string>
-	<key>nine.superior</key>
-	<string>nine.superior.glif</string>
+	<key>nineinferior</key>
+	<string>nineinferior.glif</string>
+	<key>ninesuperior</key>
+	<string>ninesuperior.glif</string>
 	<key>nlinebelow</key>
 	<string>nlinebelow.glif</string>
 	<key>noNen-thai</key>
@@ -1020,12 +1036,12 @@
 	<string>one.glif</string>
 	<key>one-thai</key>
 	<string>one-thai.glif</string>
-	<key>one.inferior</key>
-	<string>one.inferior.glif</string>
 	<key>oneeighth</key>
 	<string>oneeighth.glif</string>
 	<key>onehalf</key>
 	<string>onehalf.glif</string>
+	<key>oneinferior</key>
+	<string>oneinferior.glif</string>
 	<key>onequarter</key>
 	<string>onequarter.glif</string>
 	<key>onesuperior</key>
@@ -1050,8 +1066,16 @@
 	<string>paragraph.glif</string>
 	<key>parenleft</key>
 	<string>parenleft.glif</string>
+	<key>parenleftinferior</key>
+	<string>parenleftinferior.glif</string>
+	<key>parenleftsuperior</key>
+	<string>parenleftsuperior.glif</string>
 	<key>parenright</key>
 	<string>parenright.glif</string>
+	<key>parenrightinferior</key>
+	<string>parenrightinferior.glif</string>
+	<key>parenrightsuperior</key>
+	<string>parenrightsuperior.glif</string>
 	<key>partialdiff</key>
 	<string>partialdiff.glif</string>
 	<key>percent</key>
@@ -1202,20 +1226,20 @@
 	<string>seven.glif</string>
 	<key>seven-thai</key>
 	<string>seven-thai.glif</string>
-	<key>seven.inferior</key>
-	<string>seven.inferior.glif</string>
-	<key>seven.superior</key>
-	<string>seven.superior.glif</string>
 	<key>seveneighths</key>
 	<string>seveneighths.glif</string>
+	<key>seveninferior</key>
+	<string>seveninferior.glif</string>
+	<key>sevensuperior</key>
+	<string>sevensuperior.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
 	<key>six-thai</key>
 	<string>six-thai.glif</string>
-	<key>six.inferior</key>
-	<string>six.inferior.glif</string>
-	<key>six.superior</key>
-	<string>six.superior.glif</string>
+	<key>sixinferior</key>
+	<string>sixinferior.glif</string>
+	<key>sixsuperior</key>
+	<string>sixsuperior.glif</string>
 	<key>slash</key>
 	<string>slash.glif</string>
 	<key>soRusi-thai</key>
@@ -1274,10 +1298,10 @@
 	<string>three.glif</string>
 	<key>three-thai</key>
 	<string>three-thai.glif</string>
-	<key>three.inferior</key>
-	<string>three.inferior.glif</string>
 	<key>threeeighths</key>
 	<string>threeeighths.glif</string>
+	<key>threeinferior</key>
+	<string>threeinferior.glif</string>
 	<key>threequarters</key>
 	<string>threequarters.glif</string>
 	<key>threesuperior</key>
@@ -1304,8 +1328,8 @@
 	<string>two.glif</string>
 	<key>two-thai</key>
 	<string>two-thai.glif</string>
-	<key>two.inferior</key>
-	<string>two.inferior.glif</string>
+	<key>twoinferior</key>
+	<string>twoinferior.glif</string>
 	<key>twosuperior</key>
 	<string>twosuperior.glif</string>
 	<key>twothirds</key>
@@ -1416,16 +1440,8 @@
 	<string>uni2010.glif</string>
 	<key>uni2015</key>
 	<string>uni2015.glif</string>
-	<key>uni207D</key>
-	<string>uni207D_.glif</string>
-	<key>uni207E</key>
-	<string>uni207E_.glif</string>
 	<key>uni207F</key>
 	<string>uni207F_.glif</string>
-	<key>uni208D</key>
-	<string>uni208D_.glif</string>
-	<key>uni208E</key>
-	<string>uni208E_.glif</string>
 	<key>uni20A6</key>
 	<string>uni20A_6.glif</string>
 	<key>uni20B1</key>
@@ -1530,9 +1546,9 @@
 	<string>zero.glif</string>
 	<key>zero-thai</key>
 	<string>zero-thai.glif</string>
-	<key>zero.inferior</key>
-	<string>zero.inferior.glif</string>
-	<key>zero.superior</key>
-	<string>zero.superior.glif</string>
+	<key>zeroinferior</key>
+	<string>zeroinferior.glif</string>
+	<key>zerosuperior</key>
+	<string>zerosuperior.glif</string>
 </dict>
 </plist>

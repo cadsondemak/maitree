@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wgrave" format="1">
-  <advance width="866"/>
-  <unicode hex="1E81"/>
-  <note>
-	wgrave
-  </note>
-  <outline>
-    <contour>
-      <point x="492" y="596" type="line"/>
-      <point x="398" y="753" type="line"/>
-      <point x="325" y="706" type="line"/>
-      <point x="437" y="560" type="line"/>
-    </contour>
-    <component base="w"/>
-  </outline>
+<glyph name="wgrave" format="2">
+	<advance width="866"/>
+	<unicode hex="1E81"/>
+	<note>
+		wgrave
+	</note>
+	<outline>
+		<contour>
+			<point x="437" y="560" type="line"/>
+			<point x="492" y="596" type="line"/>
+			<point x="398" y="753" type="line"/>
+			<point x="325" y="706" type="line"/>
+		</contour>
+		<component base="w"/>
+	</outline>
 </glyph>

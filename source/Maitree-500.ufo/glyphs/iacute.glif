@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iacute" format="1">
-  <advance width="300"/>
-  <unicode hex="00ED"/>
-  <note>
-	iacute
-  </note>
-  <outline>
-    <contour>
-      <point x="242" y="706" type="line"/>
-      <point x="169" y="753" type="line"/>
-      <point x="75" y="596" type="line"/>
-      <point x="130" y="560" type="line"/>
-    </contour>
-    <component base="dotlessi" xOffset="-15"/>
-  </outline>
+<glyph name="iacute" format="2">
+	<advance width="300"/>
+	<unicode hex="00ED"/>
+	<note>
+		iacute
+	</note>
+	<outline>
+		<contour>
+			<point x="130" y="560" type="line"/>
+			<point x="242" y="706" type="line"/>
+			<point x="169" y="753" type="line"/>
+			<point x="75" y="596" type="line"/>
+		</contour>
+		<component base="dotlessi" xOffset="-15"/>
+	</outline>
 </glyph>

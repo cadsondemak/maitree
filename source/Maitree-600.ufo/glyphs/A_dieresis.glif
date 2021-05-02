@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Adieresis" format="1">
-  <advance width="750"/>
-  <unicode hex="00C4"/>
-  <note>
-	Adieresis
-  </note>
-  <outline>
-    <contour>
-      <point x="301" y="764"/>
-      <point x="329" y="790"/>
-      <point x="329" y="827" type="curve" smooth="yes"/>
-      <point x="329" y="863"/>
-      <point x="301" y="890"/>
-      <point x="267" y="890" type="curve" smooth="yes"/>
-      <point x="233" y="890"/>
-      <point x="204" y="863"/>
-      <point x="204" y="827" type="curve" smooth="yes"/>
-      <point x="204" y="790"/>
-      <point x="233" y="764"/>
-      <point x="267" y="764" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="506" y="764"/>
-      <point x="534" y="790"/>
-      <point x="534" y="827" type="curve" smooth="yes"/>
-      <point x="534" y="863"/>
-      <point x="506" y="890"/>
-      <point x="472" y="890" type="curve" smooth="yes"/>
-      <point x="438" y="890"/>
-      <point x="409" y="863"/>
-      <point x="409" y="827" type="curve" smooth="yes"/>
-      <point x="409" y="790"/>
-      <point x="438" y="764"/>
-      <point x="472" y="764" type="curve" smooth="yes"/>
-    </contour>
-    <component base="A"/>
-  </outline>
+<glyph name="Adieresis" format="2">
+	<advance width="750"/>
+	<unicode hex="00C4"/>
+	<note>
+		Adieresis
+	</note>
+	<outline>
+		<contour>
+			<point x="267" y="764" type="curve" smooth="yes"/>
+			<point x="301" y="764"/>
+			<point x="329" y="790"/>
+			<point x="329" y="827" type="curve" smooth="yes"/>
+			<point x="329" y="863"/>
+			<point x="301" y="890"/>
+			<point x="267" y="890" type="curve" smooth="yes"/>
+			<point x="233" y="890"/>
+			<point x="204" y="863"/>
+			<point x="204" y="827" type="curve" smooth="yes"/>
+			<point x="204" y="790"/>
+			<point x="233" y="764"/>
+		</contour>
+		<contour>
+			<point x="472" y="764" type="curve" smooth="yes"/>
+			<point x="506" y="764"/>
+			<point x="534" y="790"/>
+			<point x="534" y="827" type="curve" smooth="yes"/>
+			<point x="534" y="863"/>
+			<point x="506" y="890"/>
+			<point x="472" y="890" type="curve" smooth="yes"/>
+			<point x="438" y="890"/>
+			<point x="409" y="863"/>
+			<point x="409" y="827" type="curve" smooth="yes"/>
+			<point x="409" y="790"/>
+			<point x="438" y="764"/>
+		</contour>
+		<component base="A"/>
+	</outline>
 </glyph>
